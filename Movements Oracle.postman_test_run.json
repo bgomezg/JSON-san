@@ -1,0 +1,2698 @@
+{
+	"id": "5eef6595-fddf-4648-b5b0-915269c73e74",
+	"name": "Movements Oracle",
+	"timestamp": "2023-06-28T13:39:04.765Z",
+	"collection_id": "0-5a0fc104-6239-474c-874c-25dd1f81f266",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 870,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8f5de7e9-092f-4010-98ff-34389203b648",
+			"name": "Get Token OFI",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Guarda credenciales": true
+			},
+			"testPassFailCounts": {
+				"Guarda credenciales": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				128,
+				49,
+				78,
+				48,
+				69,
+				88,
+				53,
+				52,
+				49,
+				354,
+				64,
+				57,
+				53,
+				78,
+				54,
+				51,
+				57,
+				489,
+				55,
+				180,
+				86,
+				46,
+				73,
+				47,
+				60,
+				46,
+				60,
+				69,
+				61,
+				71
+			],
+			"allTests": [
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				},
+				{
+					"Guarda credenciales": true
+				}
+			]
+		},
+		{
+			"id": "2cf90dd3-2104-4ba8-bf83-4dfd30ef5084",
+			"name": "Accounts movements",
+			"time": 775,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				459,
+				243,
+				241,
+				296,
+				232,
+				285,
+				226,
+				236,
+				218,
+				239,
+				289,
+				258,
+				242,
+				211,
+				254,
+				211,
+				226,
+				225,
+				236,
+				603,
+				236,
+				221,
+				230,
+				235,
+				264,
+				222,
+				226,
+				265,
+				280,
+				775
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "1603c8e4-1c61-4200-89ee-7fc94f066a47",
+			"name": "Accounts movements paginated",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				807,
+				131,
+				142,
+				133,
+				121,
+				183,
+				129,
+				150,
+				120,
+				120,
+				122,
+				112,
+				123,
+				104,
+				131,
+				112,
+				114,
+				142,
+				119,
+				254,
+				163,
+				121,
+				143,
+				131,
+				266,
+				129,
+				117,
+				118,
+				166,
+				143
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "7a6e7d73-679b-4d72-8550-8d2d4438cb90",
+			"name": "Accounts movements text search",
+			"time": 405,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				390,
+				343,
+				395,
+				339,
+				417,
+				359,
+				331,
+				337,
+				358,
+				367,
+				382,
+				381,
+				331,
+				347,
+				366,
+				381,
+				322,
+				357,
+				329,
+				389,
+				374,
+				339,
+				356,
+				332,
+				419,
+				374,
+				369,
+				368,
+				336,
+				405
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "5798eb8a-1b8d-4f48-9375-d27e1b7f2e46",
+			"name": "Accounts movements date filter",
+			"time": 136,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				102,
+				186,
+				107,
+				101,
+				97,
+				103,
+				112,
+				104,
+				111,
+				104,
+				110,
+				303,
+				110,
+				94,
+				105,
+				98,
+				107,
+				98,
+				91,
+				106,
+				109,
+				92,
+				96,
+				101,
+				128,
+				98,
+				104,
+				123,
+				118,
+				136
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "046f0081-d5ce-4853-903d-4216f4329704",
+			"name": "Accounts movements annotation date filter",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				103,
+				109,
+				111,
+				99,
+				95,
+				106,
+				124,
+				116,
+				92,
+				100,
+				111,
+				109,
+				105,
+				110,
+				99,
+				115,
+				108,
+				90,
+				96,
+				139,
+				97,
+				90,
+				92,
+				98,
+				218,
+				97,
+				105,
+				108,
+				122,
+				137
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "d668d73d-1c2c-4702-b1c6-8e52da141491",
+			"name": "Accounts movements movement type",
+			"time": 249,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				257,
+				256,
+				269,
+				235,
+				243,
+				249,
+				305,
+				250,
+				239,
+				290,
+				260,
+				348,
+				254,
+				234,
+				262,
+				602,
+				237,
+				256,
+				233,
+				247,
+				274,
+				251,
+				240,
+				248,
+				272,
+				279,
+				255,
+				277,
+				264,
+				249
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "c5a43430-8ddd-4a73-91c4-8ffa91ec7d8e",
+			"name": "Accounts movements banking operation filter",
+			"time": 173,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				241,
+				190,
+				197,
+				191,
+				202,
+				177,
+				194,
+				193,
+				173,
+				222,
+				170,
+				181,
+				211,
+				194,
+				188,
+				220,
+				171,
+				176,
+				167,
+				175,
+				180,
+				218,
+				177,
+				170,
+				193,
+				309,
+				203,
+				199,
+				179,
+				173
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "c9d6beb9-b67a-4554-9d2b-ca76c838ac16",
+			"name": "Accounts movements sort",
+			"time": 171,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				105,
+				94,
+				221,
+				91,
+				158,
+				92,
+				100,
+				86,
+				91,
+				138,
+				98,
+				654,
+				106,
+				100,
+				104,
+				92,
+				99,
+				89,
+				95,
+				89,
+				89,
+				230,
+				84,
+				126,
+				116,
+				98,
+				98,
+				110,
+				98,
+				171
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "86115063-b5a5-4edc-92a7-ec02497c4da2",
+			"name": "Accounts movements import filter",
+			"time": 226,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				273,
+				336,
+				235,
+				223,
+				245,
+				219,
+				232,
+				308,
+				234,
+				252,
+				230,
+				253,
+				245,
+				248,
+				205,
+				218,
+				233,
+				218,
+				220,
+				227,
+				222,
+				239,
+				215,
+				241,
+				249,
+				246,
+				261,
+				234,
+				218,
+				226
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "766b4627-087d-4fb3-8e28-23bf7408c872",
+			"name": "Accounts movements absolut import filter",
+			"time": 249,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				253,
+				235,
+				265,
+				241,
+				256,
+				244,
+				259,
+				266,
+				225,
+				271,
+				228,
+				304,
+				1177,
+				234,
+				237,
+				232,
+				396,
+				239,
+				248,
+				255,
+				248,
+				247,
+				223,
+				240,
+				246,
+				238,
+				324,
+				259,
+				229,
+				249
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "cf2e60e1-53fe-4472-ae73-7128870d5f34",
+			"name": "Accounts movements ahorro",
+			"time": 228,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				249,
+				178,
+				200,
+				228,
+				176,
+				180,
+				191,
+				194,
+				200,
+				197,
+				174,
+				198,
+				197,
+				193,
+				172,
+				182,
+				192,
+				163,
+				177,
+				188,
+				178,
+				180,
+				167,
+				186,
+				185,
+				177,
+				219,
+				179,
+				183,
+				228
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "589453aa-0189-4de7-aae8-72daa3f45623",
+			"name": "Accounts movements credito",
+			"time": 211,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				214,
+				234,
+				185,
+				215,
+				175,
+				176,
+				185,
+				205,
+				278,
+				188,
+				169,
+				163,
+				174,
+				176,
+				160,
+				189,
+				398,
+				266,
+				158,
+				203,
+				155,
+				165,
+				171,
+				193,
+				181,
+				189,
+				189,
+				174,
+				182,
+				211
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "8c79c433-01a1-4169-854f-9b3886a0793d",
+			"name": "Accounts movements resto",
+			"time": 246,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some movement": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some movement": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				216,
+				160,
+				198,
+				185,
+				176,
+				224,
+				169,
+				169,
+				159,
+				174,
+				205,
+				178,
+				176,
+				258,
+				178,
+				157,
+				190,
+				183,
+				170,
+				163,
+				188,
+				171,
+				254,
+				186,
+				183,
+				164,
+				170,
+				173,
+				167,
+				246
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some movement": true
+				}
+			]
+		},
+		{
+			"id": "19f318e4-e400-4fa1-9cc6-816106b922a0",
+			"name": "Accounts operation types",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Returns some operation_types": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Returns some operation_types": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				37,
+				40,
+				36,
+				37,
+				37,
+				44,
+				35,
+				33,
+				34,
+				40,
+				36,
+				45,
+				35,
+				37,
+				35,
+				36,
+				36,
+				40,
+				43,
+				43,
+				34,
+				37,
+				41,
+				38,
+				36,
+				36,
+				41,
+				75,
+				34,
+				34
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				},
+				{
+					"Status code is 200": true,
+					"Returns some operation_types": true
+				}
+			]
+		}
+	],
+	"count": 30,
+	"totalTime": 85674,
+	"collection": {
+		"requests": [
+			{
+				"id": "8f5de7e9-092f-4010-98ff-34389203b648",
+				"method": "POST"
+			},
+			{
+				"id": "2cf90dd3-2104-4ba8-bf83-4dfd30ef5084",
+				"method": "GET"
+			},
+			{
+				"id": "1603c8e4-1c61-4200-89ee-7fc94f066a47",
+				"method": "GET"
+			},
+			{
+				"id": "7a6e7d73-679b-4d72-8550-8d2d4438cb90",
+				"method": "GET"
+			},
+			{
+				"id": "5798eb8a-1b8d-4f48-9375-d27e1b7f2e46",
+				"method": "GET"
+			},
+			{
+				"id": "046f0081-d5ce-4853-903d-4216f4329704",
+				"method": "GET"
+			},
+			{
+				"id": "d668d73d-1c2c-4702-b1c6-8e52da141491",
+				"method": "GET"
+			},
+			{
+				"id": "c5a43430-8ddd-4a73-91c4-8ffa91ec7d8e",
+				"method": "GET"
+			},
+			{
+				"id": "c9d6beb9-b67a-4554-9d2b-ca76c838ac16",
+				"method": "GET"
+			},
+			{
+				"id": "86115063-b5a5-4edc-92a7-ec02497c4da2",
+				"method": "GET"
+			},
+			{
+				"id": "766b4627-087d-4fb3-8e28-23bf7408c872",
+				"method": "GET"
+			},
+			{
+				"id": "cf2e60e1-53fe-4472-ae73-7128870d5f34",
+				"method": "GET"
+			},
+			{
+				"id": "589453aa-0189-4de7-aae8-72daa3f45623",
+				"method": "GET"
+			},
+			{
+				"id": "8c79c433-01a1-4169-854f-9b3886a0793d",
+				"method": "GET"
+			},
+			{
+				"id": "19f318e4-e400-4fa1-9cc6-816106b922a0",
+				"method": "GET"
+			}
+		]
+	}
+}

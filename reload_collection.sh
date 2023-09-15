@@ -19,7 +19,7 @@ LD_LIBRARY_PATH=/opt/oracle/product/19c/dbhome_1/lib
 ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
 ## Requires GraalVM to run mongo2ora !!!
 JAVA_HOME=/home/idfix/graalvm-ce-java19-22.3.1
-PATH=${JAVA_HOME}/bin:$ORACLE_HOME/bin:$PATH
+PATH=${JAVA_HOME}/bin:/home/oracle/sqlcl/bin:$ORACLE_HOME/bin:$PATH
 ####### END MANDATORY ENV VARIABLES : MUST CHANGE !!!!
 
 ## Read the ini file:
@@ -33,7 +33,7 @@ STRINGCONNECT=${USER}/${PASSWORD}@${CONNECTSTRING}
 ## Capture indexes of the underlying table, except the PK index (it will be re-created by mongo2ora):
 IDXFILE=$$_tmp_idx.sql
 
-sqlplus -s ${STRINGCONNECT} << EOF > ${IDXFILE}
+sql -s ${STRINGCONNECT} << EOF > ${IDXFILE}
 SET LONG 20000 LONGCHUNKSIZE 20000 PAGESIZE 0 LINESIZE 1000 FEEDBACK OFF VERIFY OFF TRIMSPOOL ON
 
 BEGIN
@@ -53,9 +53,32 @@ AND INDEX_NAME not in (select index_name from user_constraints where table_name 
 exit
 EOF
 
+### Generate script to drop indexes:
+
+echo "Now dropping non PK indexes on collection collection: "${CNAME}
+
+sql -s ${STRINGCONNECT} << EOF
+
+DECLARE
+   cursor c_idx is
+      select index_name
+      FROM   user_indexes
+   WHERE  table_name = '${TABLE}' and index_type <> 'LOB'
+   AND INDEX_NAME not in (select index_name from user_constraints where table_name = '${TABLE}' and constraint_type = 'P');
+BEGIN
+   for cur in c_idx
+   LOOP
+      execute immediate ('drop index ' || cur.index_name || 'force' );
+   END LOOP;
+END;
+/
+exit
+
+EOF
+
 ## If the collection is not mapped to the default table, drop it
 echo "Now checking the current "${CNAME}" collection ..."
-sqlplus -s ${STRINGCONNECT} << EOF
+sql -s ${STRINGCONNECT} << EOF
 DECLARE
   v_tab_name VARCHAR2(100);
   ret PLS_INTEGER;
@@ -79,8 +102,9 @@ echo "Now invoking mongo2ora ..."
 echo "Using "${ADMINUSER}" as ADMIN user"
 echo "Using "${ADMINPASSWD}" as ADMIN password"
 
+#cambiada version de 1.2.2 a 1.2.1
 java --enable-preview -Xmx6G -Xms6G -XX:+UnlockExperimentalVMOptions -XX:G1MaxNewSizePercent=80 -XX:MaxTenuringThreshold=1 \
--jar mongo2ora-1.2.2-jar-with-dependencies.jar \
+-jar mongo2ora-1.2.1-jar-with-dependencies.jar \
 -s 'mongodump://'${DUMPDIR} \
 -d ${STRINGCONNECT} \
 -da ${ADMINUSER} -dp ${ADMINPASSWD} \
@@ -90,7 +114,7 @@ java --enable-preview -Xmx6G -Xms6G -XX:+UnlockExperimentalVMOptions -XX:G1MaxNe
 ## Re-create the indexes
 echo "Now indexing the underlying table ..."
 
-sqlplus -s ${STRINGCONNECT} << EOF
+sql -s ${STRINGCONNECT} << EOF
 spool ${IDXFILE}.log
 start ${IDXFILE}
 spool off
@@ -102,7 +126,7 @@ EOF
 if ! [ -z "${PARTTABLE}" ]
 then
 ## Load the partitioned table row by row to honor hash partitioning !!!
-sqlplus -s ${STRINGCONNECT} << EOF
+sql -s ${STRINGCONNECT} << EOF
 spool load_${PARTTABLE}.log
 truncate table ${PARTTABLE};
 declare
@@ -129,7 +153,7 @@ echo "Now re-creating the collection mapping ..."
 TABCLAUSE='"tableName" : "'${PARTTABLE}'",'
 echo ${TABCLAUSE}
 
-sqlplus -s ${STRINGCONNECT} << EOF
+sql -s ${STRINGCONNECT} << EOF
 select DBMS_SODA.DROP_COLLECTION('${CNAME}') from dual;
 declare
   metadata VARCHAR2(4000) :=

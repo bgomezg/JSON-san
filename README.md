@@ -110,6 +110,17 @@ ORA-06512: at line 1
 
 Now indexing the underlying table ...
 
+
+
+
+
+
+
+
+mongo2ora.log
+
+Caused by: Error : 955, Position : 0, SQL = BEGIN DBMS_SODA_ADMIN.CREATE_COLLECTION(P_URI_NAME => :1, P_CREATE_MODE => 'NEW', P_DESCRIPTOR => :2, P_CREATE_TIME => :3) ; END;, Original SQL = {call DBMS_SODA_ADMIN.CREATE_COLLECTION(P_URI_NAME => ?, P_CREATE_MODE => 'NEW', P_DESCRIPTOR => ?, P_CREATE_TIME => ?) }, Error Message = ORA-00955: name is already used by an existing object
+
  
 
  

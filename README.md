@@ -119,12 +119,57 @@ Now indexing the underlying table ...
 
 mongo2ora.log
 
-Caused by: Error : 955, Position : 0, SQL = BEGIN DBMS_SODA_ADMIN.CREATE_COLLECTION(P_URI_NAME => :1, P_CREATE_MODE => 'NEW', P_DESCRIPTOR => :2, P_CREATE_TIME => :3) ; END;, Original SQL = {call DBMS_SODA_ADMIN.CREATE_COLLECTION(P_URI_NAME => ?, P_CREATE_MODE => 'NEW', P_DESCRIPTOR => ?, P_CREATE_TIME => ?) }, Error Message = ORA-00955: name is already used by an existing object
-
- 
-
- 
-
-Index "CVGT"."idContratoLocal_1_0" created.
-
+INFO  09-15 14:22:54,141 [org.mongodb.driver.main]: COUNTER THREADS=4
+INFO  09-15 14:22:54,142 [org.mongodb.driver.main]: COUNTER THREADS PRIORITY=5
+INFO  09-15 14:22:54,143 [org.mongodb.driver.main]: WORKER THREADS=2
+INFO  09-15 14:22:54,143 [org.mongodb.driver.main]: WORKER THREADS PRIORITY=6
+INFO  09-15 14:22:56,602 [org.mongodb.driver.index]: MongoDB API compatible collection does not exist => creating it
+INFO  09-15 14:22:56,602 [org.mongodb.driver.index]: Using metadata: {
+        "contentColumn" : {
+           "name" : "DATA",
+           "sqlType" : "BLOB",
+           "jsonFormat" : "OSON"
+        },
+        "keyColumn" : {
+           "name" : "ID",
+           "assignmentMethod" : "EMBEDDED_OID",
+           "path" : "_id"
+        },
+        "versionColumn" : {
+                "name" : "VERSION",
+                "method" : "UUID"
+        },
+        "lastModifiedColumn" : {
+                "name" : "LAST_MODIFIED"
+        },
+        "creationTimeColumn" : {
+                "name" : "CREATED_ON"
+        }
+}
+INFO  09-15 14:30:20,704 [org.mongodb.driver.main]: COUNTER THREADS=4
+INFO  09-15 14:30:20,704 [org.mongodb.driver.main]: COUNTER THREADS PRIORITY=5
+INFO  09-15 14:30:20,706 [org.mongodb.driver.main]: WORKER THREADS=2
+INFO  09-15 14:30:20,706 [org.mongodb.driver.main]: WORKER THREADS PRIORITY=6
+INFO  09-15 14:30:24,833 [org.mongodb.driver.index]: MongoDB API compatible collection does not exist => creating it
+INFO  09-15 14:30:24,834 [org.mongodb.driver.index]: Using metadata: {
+        "contentColumn" : {
+           "name" : "DATA",
+           "sqlType" : "BLOB",
+           "jsonFormat" : "OSON"
+        },
+        "keyColumn" : {
+           "name" : "ID",
+           "assignmentMethod" : "EMBEDDED_OID",
+           "path" : "_id"
+        },
+        "versionColumn" : {
+                "name" : "VERSION",
+                "method" : "UUID"
+        },
+        "lastModifiedColumn" : {
+                "name" : "LAST_MODIFIED"
+        },
+        "creationTimeColumn" : {
+                "name" : "CREATED_ON"
+        }
  

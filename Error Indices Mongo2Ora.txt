@@ -1,0 +1,73 @@
+SQL
+
+[11:24] Gonzalez Gomez Pedro Antonio
+
+[idefix@isblccoraci0027 mongo2ora]$ cat 930666_tmp_idx.sql
+
+ 
+
+ 
+
+  CREATE INDEX "CVGT"."idContratoLocal_1_0" ON "CVGT"."MOVIMIENTOS_HISMO_VISTA_0" (JSON_VALUE("DATA" FORMAT OSON , '$.idContratoLocal' RETURNING VARCHAR2(2000) ERROR ON ERROR NULL ON EMPTY), 1) 
+
+  ;    
+
+ 
+
+  CREATE INDEX "CVGT"."INDEXSEARCHVISTA0" ON "CVGT"."MOVIMIENTOS_HISMO_VISTA_0" ("DATA") 
+
+   INDEXTYPE IS "CTXSYS"."CONTEXT_V2"  PARAMETERS ('SIMPLIFIED_JSON ');    
+
+[idefix@isblccoraci0027 mongo2ora]$ 
+
+[idefix@isblccoraci0027 mongo2ora]$ 
+
+[idefix@isblccoraci0027 mongo2ora]$ 
+
+[idefix@isblccoraci0027 mongo2ora]$ 
+
+[idefix@isblccoraci0027 mongo2ora]$ 
+
+[idefix@isblccoraci0027 mongo2ora]$ 
+
+[idefix@isblccoraci0027 mongo2ora]$ cat 930666_tmp_idx.sql.log
+
+ 
+
+Error starting at line : 3 File @ /opt/oracle/mongo2ora/930666_tmp_idx.sql
+
+In command -
+
+  CREATE INDEX "CVGT"."idContratoLocal_1_0" ON "CVGT"."MOVIMIENTOS_HISMO_VISTA_0" (JSON_VALUE("DATA" FORMAT OSON , '$.idContratoLocal' RETURNING VARCHAR2(2000) ERROR ON ERROR NULL ON EMPTY), 1)
+
+Error report -
+
+ORA-00955: name is already used by an existing object
+
+00955. 00000 -  "name is already used by an existing object"
+
+*Cause:    
+
+*Action:
+
+ 
+
+Error starting at line : 6 File @ /opt/oracle/mongo2ora/930666_tmp_idx.sql
+
+In command -
+
+  CREATE INDEX "CVGT"."INDEXSEARCHVISTA0" ON "CVGT"."MOVIMIENTOS_HISMO_VISTA_0" ("DATA") 
+
+   INDEXTYPE IS "CTXSYS"."CONTEXT_V2"  PARAMETERS ('SIMPLIFIED_JSON ')
+
+Error report -
+
+ORA-00955: name is already used by an existing object
+
+00955. 00000 -  "name is already used by an existing object"
+
+*Cause:    
+
+*Action:
+
+[idefix@isblccoraci0027 mongo2ora]$

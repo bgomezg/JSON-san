@@ -1,0 +1,2300 @@
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.jwt.allowed.skew = 0s
+2023-09-18T08:32:29.050Z FINE        Injecting setting: error.responseFormat = AUTO
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.forceHTTPS = false
+2023-09-18T08:32:29.050Z FINE        Injecting setting: debug.printDebugToScreen = true
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.verifySSL = true
+2023-09-18T08:32:29.050Z FINE        Injecting setting: cache.expireAfterAccessOWAJDBCURL = 30m
+2023-09-18T08:32:29.050Z FINE        Injecting setting: cache.maxOWAJDBCURL = 10000
+2023-09-18T08:32:29.050Z FINE        Injecting setting: cache.expireAfterWriteProcedure = -1s
+2023-09-18T08:32:29.050Z FINE        Injecting setting: cache.expireAfterAccessProcedure = 120m
+2023-09-18T08:32:29.050Z FINE        Injecting setting: cache.maxOWAProcedures = 1000
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.maxEntries = 2000
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.validationCacheExpiration = -1s
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.validationCacheExpireAfterAccess  = 120m
+2023-09-18T08:32:29.050Z FINE        Injecting setting: misc.defaultPage = apex
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.requestValidationFunction = ords_util.authorize_plsql_gateway
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.validationFunctionType = plsql
+2023-09-18T08:32:29.050Z FINE        Injecting setting: owa.trace.sql = false
+2023-09-18T08:32:29.050Z FINE        Injecting setting: misc.pagination.maxRows = 10000
+2023-09-18T08:32:29.050Z FINE        Injecting setting: apex.security.administrator.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:32:29.050Z FINE        Injecting setting: apex.security.developer.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:32:29.050Z FINE        Injecting setting: apex.security.user.roles = 
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.generate.token.enabled = false
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.generate.token.lifetime = 10m
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.token.exchange.redirectUrl = /ords/admin/_sdw/
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.token.exchange.jwt.allowed.age = 10s
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.jwt.authenticators = DATABASE
+2023-09-18T08:32:29.050Z FINE        Injecting setting: security.oauth.tokenLifetime = 1h
+2023-09-18T08:32:29.050Z FINE        Injecting setting: database.api.enabled = true
+2023-09-18T08:32:29.050Z FINE        Injecting setting: database.api.management.services.disabled = false
+2023-09-18T08:32:29.050Z FINE        Injecting setting: feature.openservicebroker.exclude = false
+2023-09-18T08:32:29.050Z FINE        Injecting setting: mongo.access.log = /var/log/ords/mongologs
+2023-09-18T08:32:29.050Z FINE        Injecting setting: mongo.enabled = true
+2023-09-18T08:32:29.050Z FINE        Injecting setting: mongo.host = 0.0.0.0
+2023-09-18T08:32:29.050Z FINE        Injecting setting: mongo.idle.timeout = 30m
+2023-09-18T08:32:29.050Z FINE        Injecting setting: mongo.op.timeout = 10m
+2023-09-18T08:32:29.050Z FINE        Injecting setting: mongo.port = 27017
+2023-09-18T08:32:29.050Z FINE        Injecting setting: standalone.access.log = /var/log/ords
+2023-09-18T08:32:29.050Z FINE        Injecting setting: standalone.context.path = /ords
+2023-09-18T08:32:29.050Z FINE        Injecting setting: standalone.doc.root = /home/oracle/ords/config/global/doc_root
+2023-09-18T08:32:29.050Z FINE        Injecting setting: standalone.http.port = 8080
+2023-09-18T08:32:29.050Z FINE        Injecting setting: standalone.binds = 0.0.0.0
+2023-09-18T08:32:29.050Z FINE        Injecting setting: standalone.https.port = 8443
+2023-09-18T08:32:29.050Z FINE        Injecting setting: standalone.https.cert = /home/oracle/ords/config/global/standalone/client.der
+2023-09-18T08:32:29.050Z FINE        Injecting setting: standalone.https.cert.key = /home/oracle/ords/config/global/standalone/client-key.der
+2023-09-18T08:32:29.050Z FINE        Injecting setting: standalone.static.context.path = /i
+2023-09-18T08:32:29.050Z FINE        Injecting setting: standalone.stop.timeout = 10s
+2023-09-18T08:32:29.050Z FINE        Injecting setting: feature.sdw = true
+2023-09-18T08:32:29.050Z FINE        Injecting setting: feature.sdw.selfServiceSchema = false
+2023-09-18T08:32:29.050Z FINE        Injecting setting: instance.api.token = ORDS_INSTANCE_AUTH_TOKEN
+2023-09-18T08:32:29.050Z FINE        Injecting setting: instance.api.header = X-ORDS-Instance-Auth-Token
+2023-09-18T08:32:29.050Z FINE        Injecting setting: feature.serviceconsole = false
+2023-09-18T08:32:29.053Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.CopyCommand Does not implement IHelp
+2023-09-18T08:32:29.054Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.connect.SetShowConnectorProperty Does not implement IHelp
+2023-09-18T08:32:29.054Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetAppinfo Does not implement IHelp
+2023-09-18T08:32:29.054Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetArraysize Does not implement IHelp
+2023-09-18T08:32:29.054Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetCopyCommit Does not implement IHelp
+2023-09-18T08:32:29.055Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetNull Does not implement IHelp
+2023-09-18T08:32:29.062Z FINE        Injecting connection of type: DEFAULT
+2023-09-18T08:32:29.065Z FINE        authenticated request as: --Attributes--
+oracle.dbtools.http.servlet.UriRequest = UriRequest [uri=http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/_sdw/_services/objects/type/?limit=100&offset=0&q={"$orderby":{"object_name":"ASC"},"$and":[{"object_type":{"$eq":"SEQUENCE"}},{"owner":{"$eq":"CVGT"}}]}, contextPath=/ords/cvgt]
+oracle.dbtools.http.ecid = 9B8h26sRS5-jIme-tyYQAw
+oracle.dbtools.common.di.Services = URL Mapped Scope
+oracle.dbtools.plugin.api.di.InstanceLocator = URL Mapped Scope
+--Attributes--
+GET [/ords/cvgt]/_sdw/_services/objects/type/?limit=100&offset=0&q={"$orderby":{"object_name":"ASC"},"$and":[{"object_type":{"$eq":"SEQUENCE"}},{"owner":{"$eq":"CVGT"}}]} HTTP/1.1
+Host: isblccoraci0027.scisb.isban.corp
+Cookie: __ords_sid__=AT__..
+If-None-Match: "+MDxl689Qt0v2oh8HDJ18AcV1nKTNUqbLuaICVl8mlOydpOhC1ckkCacdq41A+jCxht04ZGN1HX7W1O9b5Y7Vg=="
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/_sdw/?nav=worksheet
+Host: isblccoraci0027.scisb.isban.corp:8080
+Accept-Encoding: gzip, deflate
+Accept-Language: es-ES,es;q=0.9
+Principal: {user: CVGT, roles: [SQL Developer, SODA Developer]}
+
+
+2023-09-18T08:32:29.074Z FINE        Choosing: oracle.dbtools.http.dispatch.DispatchableServletsChooser$AnnotatedServlet as current candidate with score: MetaDataScore [matchedMethod=		GET: protected void oracle.dbtools.sdw.SDWResources.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+		common: CommonMetaData [accepts=[], allowedOrigins=[], cors=null, documentation=null, frameOptions=null, pageSize=null, pagination=null, requiresPrivilege=null, transport=null, apiDescription=null]
+, matchedPattern=	/_sdw/:resourcePath*
+	common: CommonMetaData [accepts=[], allowedOrigins=[], cors=INHERIT, documentation=AUTHORIZED, frameOptions=SAME_ORIGIN, pageSize=null, pagination=NONE, requiresPrivilege=, transport=ANY, apiDescription=null]
+	methods:
+		GET: protected void oracle.dbtools.sdw.SDWResources.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+		common: CommonMetaData [accepts=[], allowedOrigins=[], cors=null, documentation=null, frameOptions=null, pageSize=null, pagination=null, requiresPrivilege=null, transport=null, apiDescription=null]
+
+	auth schemes:
+ANY, metadata=
+common: CommonMetaData [accepts=[], allowedOrigins=[], cors=ALLOW, documentation=AUTHORIZED, frameOptions=SAME_ORIGIN, pageSize=null, pagination=null, requiresPrivilege=, transport=ANY, apiDescription=null]
+pathTemplates:
+	/_sdw/:resourcePath*
+	common: CommonMetaData [accepts=[], allowedOrigins=[], cors=INHERIT, documentation=AUTHORIZED, frameOptions=SAME_ORIGIN, pageSize=null, pagination=NONE, requiresPrivilege=, transport=ANY, apiDescription=null]
+	methods:
+		GET: protected void oracle.dbtools.sdw.SDWResources.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+		common: CommonMetaData [accepts=[], allowedOrigins=[], cors=null, documentation=null, frameOptions=null, pageSize=null, pagination=null, requiresPrivilege=null, transport=null, apiDescription=null]
+
+	auth schemes:
+ANY	/_sdw/
+	common: CommonMetaData [accepts=[], allowedOrigins=[], cors=INHERIT, documentation=AUTHORIZED, frameOptions=SAME_ORIGIN, pageSize=null, pagination=NONE, requiresPrivilege=, transport=ANY, apiDescription=null]
+	methods:
+		GET: protected void oracle.dbtools.sdw.SDWResources.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+		common: CommonMetaData [accepts=[], allowedOrigins=[], cors=null, documentation=null, frameOptions=null, pageSize=null, pagination=null, requiresPrivilege=null, transport=null, apiDescription=null]
+
+	auth schemes:
+ANY
+]
+2023-09-18T08:32:29.078Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetNet Does not implement IHelp
+2023-09-18T08:32:29.078Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetNetOverwrite Does not implement IHelp
+2023-09-18T08:32:29.078Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetPagesize Does not implement IHelp
+2023-09-18T08:32:29.078Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetNewPage Does not implement IHelp
+2023-09-18T08:32:29.079Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetErrorLogging Does not implement IHelp
+2023-09-18T08:32:29.079Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetLinesize Does not implement IHelp
+2023-09-18T08:32:29.079Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetLong Does not implement IHelp
+2023-09-18T08:32:29.080Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetColsep Does not implement IHelp
+2023-09-18T08:32:29.080Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetHeading Does not implement IHelp
+2023-09-18T08:32:29.080Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetHeadsep Does not implement IHelp
+2023-09-18T08:32:29.080Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetClassicMode Does not implement IHelp
+2023-09-18T08:32:29.081Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetTrimSpool Does not implement IHelp
+2023-09-18T08:32:29.081Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetTrimOut Does not implement IHelp
+2023-09-18T08:32:29.081Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetWrap Does not implement IHelp
+2023-09-18T08:32:29.081Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetPrelim Does not implement IHelp
+2023-09-18T08:32:29.081Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetShowMode Does not implement IHelp
+2023-09-18T08:32:29.082Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetNumberwidth Does not implement IHelp
+2023-09-18T08:32:29.082Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetNumberformat Does not implement IHelp
+2023-09-18T08:32:29.082Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetSecureLiterals Does not implement IHelp
+2023-09-18T08:32:29.083Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetMaxRows Does not implement IHelp
+2023-09-18T08:32:29.083Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetMaxRowsSpoolTruncate Does not implement IHelp
+2023-09-18T08:32:29.083Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetTerm Does not implement IHelp
+2023-09-18T08:32:29.083Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetFeedBack Does not implement IHelp
+2023-09-18T08:32:29.083Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.Pause Does not implement IHelp
+2023-09-18T08:32:29.084Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.Prompt Does not implement IHelp
+2023-09-18T08:32:29.084Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.Prompt Does not implement IHelp
+2023-09-18T08:32:29.084Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.PLSQLLabelListener Does not implement IHelp
+2023-09-18T08:32:29.084Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.TransparentGateway Does not implement IHelp
+2023-09-18T08:32:29.085Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.HiddenParameters Does not implement IHelp
+2023-09-18T08:32:29.088Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.XQuery Does not implement IHelp
+2023-09-18T08:32:29.088Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.Show Does not implement IHelp
+2023-09-18T08:32:29.088Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.Set Does not implement IHelp
+2023-09-18T08:32:29.088Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.DebugLoadQueryFile Does not implement IHelp
+2023-09-18T08:32:29.088Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.ChangeLoggerLevel Does not implement IHelp
+2023-09-18T08:32:29.089Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetJavaProperty Does not implement IHelp
+2023-09-18T08:32:29.089Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetConcat Does not implement IHelp
+2023-09-18T08:32:29.089Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetEscape Does not implement IHelp
+2023-09-18T08:32:29.089Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetBlockTerminator Does not implement IHelp
+2023-09-18T08:32:29.090Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetSqlBlanklines Does not implement IHelp
+2023-09-18T08:32:29.091Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.DescribePrep Does not implement IHelp
+2023-09-18T08:32:29.091Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetDescribe Does not implement IHelp
+2023-09-18T08:32:29.093Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.Column Does not implement IHelp
+2023-09-18T08:32:29.093Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.ArchiveLogList Does not implement IHelp
+2023-09-18T08:32:29.096Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SQLPATHShowCommand Does not implement IHelp
+2023-09-18T08:32:29.097Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.Break Does not implement IHelp
+2023-09-18T08:32:29.098Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.HostAliasCommand Does not implement IHelp
+2023-09-18T08:32:29.098Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.HostAliasCommand Does not implement IHelp
+2023-09-18T08:32:29.099Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.Compute Does not implement IHelp
+2023-09-18T08:32:29.099Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.TimingCommand Does not implement IHelp
+2023-09-18T08:32:29.099Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetLongChunkSizeCommand Does not implement IHelp
+2023-09-18T08:32:29.100Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetLoad Does not implement IHelp
+2023-09-18T08:32:29.100Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetLoadFormat Does not implement IHelp
+2023-09-18T08:32:29.100Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetSQLFormat Does not implement IHelp
+2023-09-18T08:32:29.101Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.Attribute Does not implement IHelp
+2023-09-18T08:32:29.101Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetSecuredCol Does not implement IHelp
+2023-09-18T08:32:29.101Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetXMLFormat Does not implement IHelp
+2023-09-18T08:32:29.101Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetXMLFormat Does not implement IHelp
+2023-09-18T08:32:29.102Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetCloseCursor Does not implement IHelp
+2023-09-18T08:32:29.102Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetColInvisble Does not implement IHelp
+2023-09-18T08:32:29.103Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetXQuery Does not implement IHelp
+2023-09-18T08:32:29.104Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.Delimiter Does not implement IHelp
+2023-09-18T08:32:29.104Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetXQuery Does not implement IHelp
+2023-09-18T08:32:29.106Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetGetPage Does not implement IHelp
+2023-09-18T08:32:29.106Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetAutoPrint Does not implement IHelp
+2023-09-18T08:32:29.108Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetParameterPolicy Does not implement IHelp
+2023-09-18T08:32:29.110Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.AutoTrace Does not implement IHelp
+2023-09-18T08:32:29.110Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetOwa Does not implement IHelp
+2023-09-18T08:32:29.110Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetPause Does not implement IHelp
+2023-09-18T08:32:29.111Z FINE        Choosing: oracle.dbtools.rest.resource.modules.xml.XMLResourceModuleSet$MetadataAdapter as current candidate with score: oracle.dbtools.rest.resource.modules.xml.XMLResourceModuleSet$XMLResourceHandlerScore@708360e
+2023-09-18T08:32:29.111Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetServerOutput Does not implement IHelp
+2023-09-18T08:32:29.112Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.ChangeScriptRunnerContextCmd Does not implement IHelp
+2023-09-18T08:32:29.113Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.ErrorOut Does not implement IHelp
+2023-09-18T08:32:29.113Z FINE        Choosing: oracle.dbtools.rest.resource.modules.xml.StaticModulesDispatcher as current candidate with score: oracle.dbtools.rest.resource.modules.xml.XMLResourceModuleSet$XMLResourceHandlerScore@708360e
+2023-09-18T08:32:29.116Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetPreAndPostCommands Does not implement IHelp
+2023-09-18T08:32:29.116Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetSQLFormat Does not implement IHelp
+2023-09-18T08:32:29.117Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetLDAPCon Does not implement IHelp
+2023-09-18T08:32:29.117Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.SetTNSAdmin Does not implement IHelp
+2023-09-18T08:32:29.118Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.AlterSessionNLSListener Does not implement IHelp
+2023-09-18T08:32:29.118Z FINE        Mapped: SQL Developer, SODA Developer to: SQL Developer, SODA Developer
+2023-09-18T08:32:29.118Z FINE        CVGT is authorized to access: [AnnotationPrivilegeConstraint [name=oracle.dbtools.sdw.user, roles=[SQL Developer], challenges=[]]]
+2023-09-18T08:32:29.119Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.ShowErrors Does not implement IHelp
+2023-09-18T08:32:29.119Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.show.ShowPDBS Does not implement IHelp
+2023-09-18T08:32:29.119Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.show.ShowInstance Does not implement IHelp
+2023-09-18T08:32:29.119Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.show.Show_Restrict Does not implement IHelp
+2023-09-18T08:32:29.119Z FINE        oracle.dbtools.raptor.newscriptrunner.commands.show.ShowLogin Does not implement IHelp
+2023-09-18T08:32:29.122Z FINE        select * from (
+select q_.* , row_number() over (order by 1) RN___ from (
+SELECT MAIN_QUERY.* FROM (
+                        
+                          SELECT
+                              OWNER,
+                              OBJECT_TYPE,
+                              OBJECT_NAME,
+                              UPPER(OBJECT_NAME) OBJECT_NAME_UPPER,
+                              STATUS
+                          FROM
+                              (
+                                  SELECT
+                                      OBJECT_TYPE,
+                                      OBJECT_NAME,
+                                      STATUS,
+                                      OWNER
+                                  FROM
+                                      ALL_OBJECTS
+                                  UNION ALL
+                                  SELECT
+                                      'DATABASE LINK' AS OBJECT_TYPE,
+                                      DB_LINK AS OBJECT_NAME,
+                                      'N/A' AS STATUS,
+                                      OWNER
+                                  FROM
+                                      SYS.ALL_DB_LINKS
+                                  UNION ALL
+                                  SELECT
+                                    'PUBLIC_SYNONYM' AS OBJECT_TYPE,
+                                    s.SYNONYM_NAME AS OBJECT_NAME,
+                                    o.STATUS,
+                                    s.OWNER
+                                  FROM ALL_SYNONYMS s, ALL_OBJECTS o
+                                  WHERE
+                                        s.OWNER = 'PUBLIC'
+                                    AND s.OWNER = o.OWNER
+                                    AND o.OBJECT_TYPE = 'SYNONYM'
+                                    AND s.SYNONYM_NAME = o.OBJECT_NAME
+                              )
+                        
+                    ) MAIN_QUERY WHERE  ( (object_type = :F__QV_0  AND  owner = :F__QV_1) )  ORDER BY object_name ASC
+) q_
+) 
+where RN___ between :row_offset and :row_count declares the following explicit parameters, but does not reference them: ParameterKey [match=PAGE_SIZE, original=page_size, quoted=false], ParameterKey [match=FETCH_SIZE, original=fetch_size, quoted=false], ParameterKey [match=FETCH_OFFSET, original=fetch_offset, quoted=false]
+2023-09-18T08:32:29.163Z FINE        select * from (
+select q_.* , row_number() over (order by 1) RN___ from (
+SELECT
+                                    * 
+                                FROM 
+                                    ALL_OBJECTS
+                                WHERE
+                                    OBJECT_TYPE = 'PACKAGE'
+                                AND 
+                                    OBJECT_NAME = 'CS_SESSION'
+) q_
+) 
+where RN___ between :row_offset and :row_count declares the following explicit parameters, but does not reference them: ParameterKey [match=PAGE_SIZE, original=page_size, quoted=false], ParameterKey [match=FETCH_SIZE, original=fetch_size, quoted=false], ParameterKey [match=FETCH_OFFSET, original=fetch_offset, quoted=false]
+2023-09-18T08:32:29.166Z TIMING      <9B8h26sRS5-jIme-tyYQAw> [TE] dispatch start: 2023-09-18T08:32:29.118476Z duration: 48ms
+2023-09-18T08:32:29.170Z TIMING      <9B8h26sRS5-jIme-tyYQAw> [TE] GET /ords/cvgt/_sdw/_services/objects/type/?limit=100&offset=0&q=%7B%22%24orderby%22%3A%7B%22object_name%22%3A%22ASC%22%7D%2C%22%24and%22%3A%5B%7B%22object_type%22%3A%7B%22%24eq%22%3A%22SEQUENCE%22%7D%7D%2C%7B%22owner%22%3A%7B%22%24eq%22%3A%22CVGT%22%7D%7D%5D%7D start: 2023-09-18T08:32:29.045783Z duration: 124ms
+2023-09-18T08:32:29.180Z TIMING      <4XzPx9IgFbxKPLouf7vppQ> [TE] url-mapping start: 2023-09-18T08:32:29.180452Z duration: 0ms
+2023-09-18T08:32:29.180Z FINE        Mapped request to: oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping@1de94a85
+2023-09-18T08:32:29.180Z FINE        Mapped request to: URLMapping [mapper=/*] -> |default|lo|
+2023-09-18T08:32:29.181Z TIMING      <L4CgA2S2DBPCfLJHkTZHoA> [TE] POST /ords/cvgt/_/sql start: 2023-09-18T08:32:28.964092Z duration: 217ms
+2023-09-18T08:32:29.181Z FINE        Mapped request to: URLMapping [mapper=/cvgt/*]
+2023-09-18T08:32:29.183Z FINE        Injecting setting: conf.use.wallet = true
+2023-09-18T08:32:29.183Z FINE        Injecting setting: resource.templates.enabled = false
+2023-09-18T08:32:29.183Z FINE        Injecting setting: json.sdo.geometry.output.geojson = false
+2023-09-18T08:32:29.183Z FINE        Injecting setting: cache.metadata.enabled = false
+2023-09-18T08:32:29.183Z FINE        Injecting setting: cache.metadata.timeout = 11m
+2023-09-18T08:32:29.183Z FINE        Injecting setting: jdbc.cleanup.mode = RECYCLE
+2023-09-18T08:32:29.183Z FINE        Injecting setting: jdbc.MaxConnectionReuseCount = 5000
+2023-09-18T08:32:29.183Z FINE        Injecting setting: db.connectionType = basic
+2023-09-18T08:32:29.183Z FINE        Injecting setting: db.invalidPoolTimeout = 15m
+2023-09-18T08:32:29.183Z FINE        Injecting setting: debug.trackResources = false
+2023-09-18T08:32:29.183Z FINE        Injecting setting: db.hostname = c3cssgtpre01-scan.sgtech.pre.corp
+2023-09-18T08:32:29.183Z FINE        Injecting setting: jdbc.auth.enabled = false
+2023-09-18T08:32:29.183Z FINE        Injecting setting: jdbc.DriverType = thin
+2023-09-18T08:32:29.183Z FINE        Injecting setting: jdbc.InactivityTimeout = 1800
+2023-09-18T08:32:29.183Z FINE        Injecting setting: jdbc.InitialLimit = 100
+2023-09-18T08:32:29.183Z FINE        Injecting setting: jdbc.MaxLimit = 100
+2023-09-18T08:32:29.183Z FINE        Injecting setting: jdbc.MaxStatementsLimit = 10
+2023-09-18T08:32:29.183Z FINE        Injecting setting: jdbc.MinLimit = 2
+2023-09-18T08:32:29.183Z FINE        Injecting setting: jdbc.statementTimeout = 900s
+2023-09-18T08:32:29.183Z FINE        Injecting setting: jdbc.ConnectionWaitTimeout = 3
+2023-09-18T08:32:29.183Z FINE        Injecting setting: jdbc.ucp.enableJMX = true
+2023-09-18T08:32:29.183Z FINE        Injecting setting: db.password = ********
+2023-09-18T08:32:29.183Z FINE        Injecting setting: plsql.gateway.mode = DISABLED
+2023-09-18T08:32:29.183Z FINE        Injecting setting: db.poolDestroyTimeout = 5m
+2023-09-18T08:32:29.183Z FINE        Injecting setting: db.port = 1521
+2023-09-18T08:32:29.183Z FINE        Injecting setting: restEnabledSql.active = true
+2023-09-18T08:32:29.183Z FINE        Injecting setting: db.servicename = otiscvgt_cvgt_dev.sgtech.pre.corp
+2023-09-18T08:32:29.183Z FINE        Injecting setting: db.username = ORDS_PUBLIC_USER
+2023-09-18T08:32:29.183Z FINE        Injecting setting: db.wallet.cache = /tmp/ords-wallet-cache
+2023-09-18T08:32:29.183Z FINE        Injecting setting: db.batchload.errorsMax = 100
+2023-09-18T08:32:29.183Z FINE        Injecting setting: db.credentialsSource = POOL
+2023-09-18T08:32:29.183Z FINE        Injecting setting: security.credentials.lock.time = 10m
+2023-09-18T08:32:29.183Z FINE        Injecting setting: security.credentials.attempts = -1
+2023-09-18T08:32:29.183Z FINE        Injecting setting: security.jwt.allowed.skew = 0s
+2023-09-18T08:32:29.183Z FINE        Injecting setting: error.responseFormat = AUTO
+2023-09-18T08:32:29.183Z FINE        Injecting setting: security.forceHTTPS = false
+2023-09-18T08:32:29.183Z FINE        Injecting setting: debug.printDebugToScreen = true
+2023-09-18T08:32:29.183Z FINE        Injecting setting: security.verifySSL = true
+2023-09-18T08:32:29.183Z FINE        Injecting setting: cache.expireAfterAccessOWAJDBCURL = 30m
+2023-09-18T08:32:29.183Z FINE        Injecting setting: cache.maxOWAJDBCURL = 10000
+2023-09-18T08:32:29.183Z FINE        Injecting setting: cache.expireAfterWriteProcedure = -1s
+2023-09-18T08:32:29.183Z FINE        Injecting setting: cache.expireAfterAccessProcedure = 120m
+2023-09-18T08:32:29.183Z FINE        Injecting setting: cache.maxOWAProcedures = 1000
+2023-09-18T08:32:29.183Z FINE        Injecting setting: security.maxEntries = 2000
+2023-09-18T08:32:29.183Z FINE        Injecting setting: security.validationCacheExpiration = -1s
+2023-09-18T08:32:29.184Z FINE        Injecting setting: security.validationCacheExpireAfterAccess  = 120m
+2023-09-18T08:32:29.184Z FINE        Injecting setting: misc.defaultPage = apex
+2023-09-18T08:32:29.184Z FINE        Injecting setting: security.requestValidationFunction = ords_util.authorize_plsql_gateway
+2023-09-18T08:32:29.184Z FINE        Injecting setting: security.validationFunctionType = plsql
+2023-09-18T08:32:29.184Z FINE        Injecting setting: owa.trace.sql = false
+2023-09-18T08:32:29.184Z FINE        Injecting setting: misc.pagination.maxRows = 10000
+2023-09-18T08:32:29.184Z FINE        Injecting setting: apex.security.administrator.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:32:29.184Z FINE        Injecting setting: apex.security.developer.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:32:29.184Z FINE        Injecting setting: apex.security.user.roles = 
+2023-09-18T08:32:29.184Z FINE        Injecting setting: security.generate.token.enabled = false
+2023-09-18T08:32:29.184Z FINE        Injecting setting: security.generate.token.lifetime = 10m
+2023-09-18T08:32:29.184Z FINE        Injecting setting: security.token.exchange.redirectUrl = /ords/admin/_sdw/
+2023-09-18T08:32:29.184Z FINE        Injecting setting: security.token.exchange.jwt.allowed.age = 10s
+2023-09-18T08:32:29.184Z FINE        Injecting setting: security.jwt.authenticators = DATABASE
+2023-09-18T08:32:29.184Z FINE        Injecting setting: security.oauth.tokenLifetime = 1h
+2023-09-18T08:32:29.184Z FINE        Injecting setting: database.api.enabled = true
+2023-09-18T08:32:29.184Z FINE        Injecting setting: database.api.management.services.disabled = false
+2023-09-18T08:32:29.184Z FINE        Injecting setting: feature.openservicebroker.exclude = false
+2023-09-18T08:32:29.184Z FINE        Injecting setting: mongo.access.log = /var/log/ords/mongologs
+2023-09-18T08:32:29.184Z FINE        Injecting setting: mongo.enabled = true
+2023-09-18T08:32:29.184Z FINE        Injecting setting: mongo.host = 0.0.0.0
+2023-09-18T08:32:29.184Z FINE        Injecting setting: mongo.idle.timeout = 30m
+2023-09-18T08:32:29.184Z FINE        Injecting setting: mongo.op.timeout = 10m
+2023-09-18T08:32:29.184Z FINE        Injecting setting: mongo.port = 27017
+2023-09-18T08:32:29.184Z FINE        Injecting setting: standalone.access.log = /var/log/ords
+2023-09-18T08:32:29.184Z FINE        Injecting setting: standalone.context.path = /ords
+2023-09-18T08:32:29.184Z FINE        Injecting setting: standalone.doc.root = /home/oracle/ords/config/global/doc_root
+2023-09-18T08:32:29.184Z FINE        Injecting setting: standalone.http.port = 8080
+2023-09-18T08:32:29.184Z FINE        Injecting setting: standalone.binds = 0.0.0.0
+2023-09-18T08:32:29.184Z FINE        Injecting setting: standalone.https.port = 8443
+2023-09-18T08:32:29.184Z FINE        Injecting setting: standalone.https.cert = /home/oracle/ords/config/global/standalone/client.der
+2023-09-18T08:32:29.184Z FINE        Injecting setting: standalone.https.cert.key = /home/oracle/ords/config/global/standalone/client-key.der
+2023-09-18T08:32:29.184Z FINE        Injecting setting: standalone.static.context.path = /i
+2023-09-18T08:32:29.184Z FINE        Injecting setting: standalone.stop.timeout = 10s
+2023-09-18T08:32:29.184Z FINE        Injecting setting: feature.sdw = true
+2023-09-18T08:32:29.184Z FINE        Injecting setting: feature.sdw.selfServiceSchema = false
+2023-09-18T08:32:29.184Z FINE        Injecting setting: instance.api.token = ORDS_INSTANCE_AUTH_TOKEN
+2023-09-18T08:32:29.184Z FINE        Injecting setting: instance.api.header = X-ORDS-Instance-Auth-Token
+2023-09-18T08:32:29.184Z FINE        Injecting setting: feature.serviceconsole = false
+2023-09-18T08:32:29.192Z FINE        Injecting connection of type: DEFAULT
+2023-09-18T08:32:29.196Z FINE        authenticated request as: --Attributes--
+oracle.dbtools.http.servlet.UriRequest = UriRequest [uri=http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/_sdw/_services/objects/type/?limit=100&offset=0&q={"$orderby":{"object_name":"ASC"},"$and":[{"object_type":{"$eq":"SEQUENCE"}},{"owner":{"$eq":"CVGT"}}]}, contextPath=/ords/cvgt]
+oracle.dbtools.http.ecid = 4XzPx9IgFbxKPLouf7vppQ
+oracle.dbtools.common.di.Services = URL Mapped Scope
+oracle.dbtools.plugin.api.di.InstanceLocator = URL Mapped Scope
+--Attributes--
+GET [/ords/cvgt]/_sdw/_services/objects/type/?limit=100&offset=0&q={"$orderby":{"object_name":"ASC"},"$and":[{"object_type":{"$eq":"SEQUENCE"}},{"owner":{"$eq":"CVGT"}}]} HTTP/1.1
+Host: isblccoraci0027.scisb.isban.corp
+Cookie: __ords_sid__=AT__..
+If-None-Match: "+MDxl689Qt0v2oh8HDJ18AcV1nKTNUqbLuaICVl8mlOydpOhC1ckkCacdq41A+jCxht04ZGN1HX7W1O9b5Y7Vg=="
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/_sdw/?nav=worksheet
+Host: isblccoraci0027.scisb.isban.corp:8080
+Accept-Encoding: gzip, deflate
+Accept-Language: es-ES,es;q=0.9
+Principal: {user: CVGT, roles: [SQL Developer, SODA Developer]}
+
+
+2023-09-18T08:32:29.202Z FINE        Choosing: oracle.dbtools.http.dispatch.DispatchableServletsChooser$AnnotatedServlet as current candidate with score: MetaDataScore [matchedMethod=		GET: protected void oracle.dbtools.sdw.SDWResources.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+		common: CommonMetaData [accepts=[], allowedOrigins=[], cors=null, documentation=null, frameOptions=null, pageSize=null, pagination=null, requiresPrivilege=null, transport=null, apiDescription=null]
+, matchedPattern=	/_sdw/:resourcePath*
+	common: CommonMetaData [accepts=[], allowedOrigins=[], cors=INHERIT, documentation=AUTHORIZED, frameOptions=SAME_ORIGIN, pageSize=null, pagination=NONE, requiresPrivilege=, transport=ANY, apiDescription=null]
+	methods:
+		GET: protected void oracle.dbtools.sdw.SDWResources.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+		common: CommonMetaData [accepts=[], allowedOrigins=[], cors=null, documentation=null, frameOptions=null, pageSize=null, pagination=null, requiresPrivilege=null, transport=null, apiDescription=null]
+
+	auth schemes:
+ANY, metadata=
+common: CommonMetaData [accepts=[], allowedOrigins=[], cors=ALLOW, documentation=AUTHORIZED, frameOptions=SAME_ORIGIN, pageSize=null, pagination=null, requiresPrivilege=, transport=ANY, apiDescription=null]
+pathTemplates:
+	/_sdw/:resourcePath*
+	common: CommonMetaData [accepts=[], allowedOrigins=[], cors=INHERIT, documentation=AUTHORIZED, frameOptions=SAME_ORIGIN, pageSize=null, pagination=NONE, requiresPrivilege=, transport=ANY, apiDescription=null]
+	methods:
+		GET: protected void oracle.dbtools.sdw.SDWResources.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+		common: CommonMetaData [accepts=[], allowedOrigins=[], cors=null, documentation=null, frameOptions=null, pageSize=null, pagination=null, requiresPrivilege=null, transport=null, apiDescription=null]
+
+	auth schemes:
+ANY	/_sdw/
+	common: CommonMetaData [accepts=[], allowedOrigins=[], cors=INHERIT, documentation=AUTHORIZED, frameOptions=SAME_ORIGIN, pageSize=null, pagination=NONE, requiresPrivilege=, transport=ANY, apiDescription=null]
+	methods:
+		GET: protected void oracle.dbtools.sdw.SDWResources.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+		common: CommonMetaData [accepts=[], allowedOrigins=[], cors=null, documentation=null, frameOptions=null, pageSize=null, pagination=null, requiresPrivilege=null, transport=null, apiDescription=null]
+
+	auth schemes:
+ANY
+]
+2023-09-18T08:32:29.204Z TIMING      <FquSeYOj4hxyXs7Lts5fYg> [TE] url-mapping start: 2023-09-18T08:32:29.204133Z duration: 0ms
+2023-09-18T08:32:29.204Z FINE        Mapped request to: oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping@1de94a85
+2023-09-18T08:32:29.204Z FINE        Mapped request to: URLMapping [mapper=/*] -> |default|lo|
+2023-09-18T08:32:29.204Z FINE        Mapped request to: URLMapping [mapper=/cvgt/*]
+2023-09-18T08:32:29.206Z FINE        Injecting setting: conf.use.wallet = true
+2023-09-18T08:32:29.206Z FINE        Injecting setting: resource.templates.enabled = false
+2023-09-18T08:32:29.206Z FINE        Injecting setting: json.sdo.geometry.output.geojson = false
+2023-09-18T08:32:29.206Z FINE        Injecting setting: cache.metadata.enabled = false
+2023-09-18T08:32:29.206Z FINE        Injecting setting: cache.metadata.timeout = 11m
+2023-09-18T08:32:29.206Z FINE        Injecting setting: jdbc.cleanup.mode = RECYCLE
+2023-09-18T08:32:29.206Z FINE        Injecting setting: jdbc.MaxConnectionReuseCount = 5000
+2023-09-18T08:32:29.206Z FINE        Injecting setting: db.connectionType = basic
+2023-09-18T08:32:29.206Z FINE        Injecting setting: db.invalidPoolTimeout = 15m
+2023-09-18T08:32:29.206Z FINE        Injecting setting: debug.trackResources = false
+2023-09-18T08:32:29.206Z FINE        Injecting setting: db.hostname = c3cssgtpre01-scan.sgtech.pre.corp
+2023-09-18T08:32:29.206Z FINE        Injecting setting: jdbc.auth.enabled = false
+2023-09-18T08:32:29.206Z FINE        Injecting setting: jdbc.DriverType = thin
+2023-09-18T08:32:29.206Z FINE        Injecting setting: jdbc.InactivityTimeout = 1800
+2023-09-18T08:32:29.206Z FINE        Injecting setting: jdbc.InitialLimit = 100
+2023-09-18T08:32:29.206Z FINE        Injecting setting: jdbc.MaxLimit = 100
+2023-09-18T08:32:29.206Z FINE        Injecting setting: jdbc.MaxStatementsLimit = 10
+2023-09-18T08:32:29.206Z FINE        Injecting setting: jdbc.MinLimit = 2
+2023-09-18T08:32:29.206Z FINE        Injecting setting: jdbc.statementTimeout = 900s
+2023-09-18T08:32:29.206Z FINE        Injecting setting: jdbc.ConnectionWaitTimeout = 3
+2023-09-18T08:32:29.206Z FINE        Injecting setting: jdbc.ucp.enableJMX = true
+2023-09-18T08:32:29.206Z FINE        Injecting setting: db.password = ********
+2023-09-18T08:32:29.206Z FINE        Injecting setting: plsql.gateway.mode = DISABLED
+2023-09-18T08:32:29.206Z FINE        Injecting setting: db.poolDestroyTimeout = 5m
+2023-09-18T08:32:29.206Z FINE        Injecting setting: db.port = 1521
+2023-09-18T08:32:29.206Z FINE        Injecting setting: restEnabledSql.active = true
+2023-09-18T08:32:29.206Z FINE        Injecting setting: db.servicename = otiscvgt_cvgt_dev.sgtech.pre.corp
+2023-09-18T08:32:29.206Z FINE        Injecting setting: db.username = ORDS_PUBLIC_USER
+2023-09-18T08:32:29.206Z FINE        Injecting setting: db.wallet.cache = /tmp/ords-wallet-cache
+2023-09-18T08:32:29.206Z FINE        Injecting setting: db.batchload.errorsMax = 100
+2023-09-18T08:32:29.206Z FINE        Injecting setting: db.credentialsSource = POOL
+2023-09-18T08:32:29.206Z FINE        Injecting setting: security.credentials.lock.time = 10m
+2023-09-18T08:32:29.206Z FINE        Injecting setting: security.credentials.attempts = -1
+2023-09-18T08:32:29.206Z FINE        Injecting setting: security.jwt.allowed.skew = 0s
+2023-09-18T08:32:29.206Z FINE        Injecting setting: error.responseFormat = AUTO
+2023-09-18T08:32:29.206Z FINE        Injecting setting: security.forceHTTPS = false
+2023-09-18T08:32:29.206Z FINE        Injecting setting: debug.printDebugToScreen = true
+2023-09-18T08:32:29.206Z FINE        Injecting setting: security.verifySSL = true
+2023-09-18T08:32:29.206Z FINE        Injecting setting: cache.expireAfterAccessOWAJDBCURL = 30m
+2023-09-18T08:32:29.206Z FINE        Injecting setting: cache.maxOWAJDBCURL = 10000
+2023-09-18T08:32:29.206Z FINE        Injecting setting: cache.expireAfterWriteProcedure = -1s
+2023-09-18T08:32:29.206Z FINE        Injecting setting: cache.expireAfterAccessProcedure = 120m
+2023-09-18T08:32:29.206Z FINE        Injecting setting: cache.maxOWAProcedures = 1000
+2023-09-18T08:32:29.206Z FINE        Injecting setting: security.maxEntries = 2000
+2023-09-18T08:32:29.206Z FINE        Injecting setting: security.validationCacheExpiration = -1s
+2023-09-18T08:32:29.207Z FINE        Injecting setting: security.validationCacheExpireAfterAccess  = 120m
+2023-09-18T08:32:29.207Z FINE        Injecting setting: misc.defaultPage = apex
+2023-09-18T08:32:29.207Z FINE        Injecting setting: security.requestValidationFunction = ords_util.authorize_plsql_gateway
+2023-09-18T08:32:29.207Z FINE        Injecting setting: security.validationFunctionType = plsql
+2023-09-18T08:32:29.207Z FINE        Injecting setting: owa.trace.sql = false
+2023-09-18T08:32:29.207Z FINE        Injecting setting: misc.pagination.maxRows = 10000
+2023-09-18T08:32:29.207Z FINE        Injecting setting: apex.security.administrator.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:32:29.207Z FINE        Injecting setting: apex.security.developer.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:32:29.207Z FINE        Injecting setting: apex.security.user.roles = 
+2023-09-18T08:32:29.207Z FINE        Injecting setting: security.generate.token.enabled = false
+2023-09-18T08:32:29.207Z FINE        Injecting setting: security.generate.token.lifetime = 10m
+2023-09-18T08:32:29.207Z FINE        Injecting setting: security.token.exchange.redirectUrl = /ords/admin/_sdw/
+2023-09-18T08:32:29.207Z FINE        Injecting setting: security.token.exchange.jwt.allowed.age = 10s
+2023-09-18T08:32:29.207Z FINE        Injecting setting: security.jwt.authenticators = DATABASE
+2023-09-18T08:32:29.207Z FINE        Injecting setting: security.oauth.tokenLifetime = 1h
+2023-09-18T08:32:29.207Z FINE        Injecting setting: database.api.enabled = true
+2023-09-18T08:32:29.207Z FINE        Injecting setting: database.api.management.services.disabled = false
+2023-09-18T08:32:29.207Z FINE        Injecting setting: feature.openservicebroker.exclude = false
+2023-09-18T08:32:29.207Z FINE        Injecting setting: mongo.access.log = /var/log/ords/mongologs
+2023-09-18T08:32:29.207Z FINE        Injecting setting: mongo.enabled = true
+2023-09-18T08:32:29.207Z FINE        Injecting setting: mongo.host = 0.0.0.0
+2023-09-18T08:32:29.207Z FINE        Injecting setting: mongo.idle.timeout = 30m
+2023-09-18T08:32:29.207Z FINE        Injecting setting: mongo.op.timeout = 10m
+2023-09-18T08:32:29.207Z FINE        Injecting setting: mongo.port = 27017
+2023-09-18T08:32:29.207Z FINE        Injecting setting: standalone.access.log = /var/log/ords
+2023-09-18T08:32:29.207Z FINE        Injecting setting: standalone.context.path = /ords
+2023-09-18T08:32:29.207Z FINE        Injecting setting: standalone.doc.root = /home/oracle/ords/config/global/doc_root
+2023-09-18T08:32:29.207Z FINE        Injecting setting: standalone.http.port = 8080
+2023-09-18T08:32:29.207Z FINE        Injecting setting: standalone.binds = 0.0.0.0
+2023-09-18T08:32:29.207Z FINE        Injecting setting: standalone.https.port = 8443
+2023-09-18T08:32:29.207Z FINE        Injecting setting: standalone.https.cert = /home/oracle/ords/config/global/standalone/client.der
+2023-09-18T08:32:29.207Z FINE        Injecting setting: standalone.https.cert.key = /home/oracle/ords/config/global/standalone/client-key.der
+2023-09-18T08:32:29.207Z FINE        Injecting setting: standalone.static.context.path = /i
+2023-09-18T08:32:29.207Z FINE        Injecting setting: standalone.stop.timeout = 10s
+2023-09-18T08:32:29.207Z FINE        Injecting setting: feature.sdw = true
+2023-09-18T08:32:29.207Z FINE        Injecting setting: feature.sdw.selfServiceSchema = false
+2023-09-18T08:32:29.207Z FINE        Injecting setting: instance.api.token = ORDS_INSTANCE_AUTH_TOKEN
+2023-09-18T08:32:29.207Z FINE        Injecting setting: instance.api.header = X-ORDS-Instance-Auth-Token
+2023-09-18T08:32:29.207Z FINE        Injecting setting: feature.serviceconsole = false
+2023-09-18T08:32:29.218Z FINE        Injecting connection of type: DEFAULT
+2023-09-18T08:32:29.221Z FINE        authenticated request as: --Attributes--
+oracle.dbtools.http.servlet.UriRequest = UriRequest [uri=http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/_sdw/_services/objects/type/?limit=100&offset=0&q={"$orderby":{"object_name":"ASC"},"$and":[{"object_type":{"$eq":"TABLE"}},{"owner":{"$eq":"CVGT"}}]}, contextPath=/ords/cvgt]
+oracle.dbtools.http.ecid = FquSeYOj4hxyXs7Lts5fYg
+oracle.dbtools.common.di.Services = URL Mapped Scope
+oracle.dbtools.plugin.api.di.InstanceLocator = URL Mapped Scope
+--Attributes--
+GET [/ords/cvgt]/_sdw/_services/objects/type/?limit=100&offset=0&q={"$orderby":{"object_name":"ASC"},"$and":[{"object_type":{"$eq":"TABLE"}},{"owner":{"$eq":"CVGT"}}]} HTTP/1.1
+Host: isblccoraci0027.scisb.isban.corp
+Cookie: __ords_sid__=AT__..
+If-None-Match: "RrjRfBytPN/VnH+FFweZFn28RKM0V8EkfyAGW+h9QIzHOs5/Yqo7Nm1ZHJnHkNnpPxlDV24BV5HmzuyG9nciyw=="
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/_sdw/?nav=worksheet
+Host: isblccoraci0027.scisb.isban.corp:8080
+Accept-Encoding: gzip, deflate
+Accept-Language: es-ES,es;q=0.9
+Principal: {user: CVGT, roles: [SQL Developer, SODA Developer]}
+
+
+2023-09-18T08:32:29.229Z FINE        Choosing: oracle.dbtools.http.dispatch.DispatchableServletsChooser$AnnotatedServlet as current candidate with score: MetaDataScore [matchedMethod=		GET: protected void oracle.dbtools.sdw.SDWResources.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+		common: CommonMetaData [accepts=[], allowedOrigins=[], cors=null, documentation=null, frameOptions=null, pageSize=null, pagination=null, requiresPrivilege=null, transport=null, apiDescription=null]
+, matchedPattern=	/_sdw/:resourcePath*
+	common: CommonMetaData [accepts=[], allowedOrigins=[], cors=INHERIT, documentation=AUTHORIZED, frameOptions=SAME_ORIGIN, pageSize=null, pagination=NONE, requiresPrivilege=, transport=ANY, apiDescription=null]
+	methods:
+		GET: protected void oracle.dbtools.sdw.SDWResources.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+		common: CommonMetaData [accepts=[], allowedOrigins=[], cors=null, documentation=null, frameOptions=null, pageSize=null, pagination=null, requiresPrivilege=null, transport=null, apiDescription=null]
+
+	auth schemes:
+ANY, metadata=
+common: CommonMetaData [accepts=[], allowedOrigins=[], cors=ALLOW, documentation=AUTHORIZED, frameOptions=SAME_ORIGIN, pageSize=null, pagination=null, requiresPrivilege=, transport=ANY, apiDescription=null]
+pathTemplates:
+	/_sdw/:resourcePath*
+	common: CommonMetaData [accepts=[], allowedOrigins=[], cors=INHERIT, documentation=AUTHORIZED, frameOptions=SAME_ORIGIN, pageSize=null, pagination=NONE, requiresPrivilege=, transport=ANY, apiDescription=null]
+	methods:
+		GET: protected void oracle.dbtools.sdw.SDWResources.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+		common: CommonMetaData [accepts=[], allowedOrigins=[], cors=null, documentation=null, frameOptions=null, pageSize=null, pagination=null, requiresPrivilege=null, transport=null, apiDescription=null]
+
+	auth schemes:
+ANY	/_sdw/
+	common: CommonMetaData [accepts=[], allowedOrigins=[], cors=INHERIT, documentation=AUTHORIZED, frameOptions=SAME_ORIGIN, pageSize=null, pagination=NONE, requiresPrivilege=, transport=ANY, apiDescription=null]
+	methods:
+		GET: protected void oracle.dbtools.sdw.SDWResources.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+		common: CommonMetaData [accepts=[], allowedOrigins=[], cors=null, documentation=null, frameOptions=null, pageSize=null, pagination=null, requiresPrivilege=null, transport=null, apiDescription=null]
+
+	auth schemes:
+ANY
+]
+2023-09-18T08:32:29.236Z FINE        Choosing: oracle.dbtools.rest.resource.modules.xml.XMLResourceModuleSet$MetadataAdapter as current candidate with score: oracle.dbtools.rest.resource.modules.xml.XMLResourceModuleSet$XMLResourceHandlerScore@65c1e78e
+2023-09-18T08:32:29.239Z FINE        Choosing: oracle.dbtools.rest.resource.modules.xml.StaticModulesDispatcher as current candidate with score: oracle.dbtools.rest.resource.modules.xml.XMLResourceModuleSet$XMLResourceHandlerScore@65c1e78e
+2023-09-18T08:32:29.241Z FINE        Mapped: SQL Developer, SODA Developer to: SQL Developer, SODA Developer
+2023-09-18T08:32:29.241Z FINE        CVGT is authorized to access: [AnnotationPrivilegeConstraint [name=oracle.dbtools.sdw.user, roles=[SQL Developer], challenges=[]]]
+2023-09-18T08:32:29.244Z FINE        select * from (
+select q_.* , row_number() over (order by 1) RN___ from (
+SELECT MAIN_QUERY.* FROM (
+                        
+                          SELECT
+                              OWNER,
+                              OBJECT_TYPE,
+                              OBJECT_NAME,
+                              UPPER(OBJECT_NAME) OBJECT_NAME_UPPER,
+                              STATUS
+                          FROM
+                              (
+                                  SELECT
+                                      OBJECT_TYPE,
+                                      OBJECT_NAME,
+                                      STATUS,
+                                      OWNER
+                                  FROM
+                                      ALL_OBJECTS
+                                  UNION ALL
+                                  SELECT
+                                      'DATABASE LINK' AS OBJECT_TYPE,
+                                      DB_LINK AS OBJECT_NAME,
+                                      'N/A' AS STATUS,
+                                      OWNER
+                                  FROM
+                                      SYS.ALL_DB_LINKS
+                                  UNION ALL
+                                  SELECT
+                                    'PUBLIC_SYNONYM' AS OBJECT_TYPE,
+                                    s.SYNONYM_NAME AS OBJECT_NAME,
+                                    o.STATUS,
+                                    s.OWNER
+                                  FROM ALL_SYNONYMS s, ALL_OBJECTS o
+                                  WHERE
+                                        s.OWNER = 'PUBLIC'
+                                    AND s.OWNER = o.OWNER
+                                    AND o.OBJECT_TYPE = 'SYNONYM'
+                                    AND s.SYNONYM_NAME = o.OBJECT_NAME
+                              )
+                        
+                    ) MAIN_QUERY WHERE  ( (object_type = :F__QV_0  AND  owner = :F__QV_1) )  ORDER BY object_name ASC
+) q_
+) 
+where RN___ between :row_offset and :row_count declares the following explicit parameters, but does not reference them: ParameterKey [match=PAGE_SIZE, original=page_size, quoted=false], ParameterKey [match=FETCH_SIZE, original=fetch_size, quoted=false], ParameterKey [match=FETCH_OFFSET, original=fetch_offset, quoted=false]
+2023-09-18T08:32:29.259Z FINE        Choosing: oracle.dbtools.rest.resource.modules.xml.XMLResourceModuleSet$MetadataAdapter as current candidate with score: oracle.dbtools.rest.resource.modules.xml.XMLResourceModuleSet$XMLResourceHandlerScore@3ec005a4
+2023-09-18T08:32:29.261Z FINE        Choosing: oracle.dbtools.rest.resource.modules.xml.StaticModulesDispatcher as current candidate with score: oracle.dbtools.rest.resource.modules.xml.XMLResourceModuleSet$XMLResourceHandlerScore@3ec005a4
+2023-09-18T08:32:29.263Z FINE        Mapped: SQL Developer, SODA Developer to: SQL Developer, SODA Developer
+2023-09-18T08:32:29.263Z FINE        CVGT is authorized to access: [AnnotationPrivilegeConstraint [name=oracle.dbtools.sdw.user, roles=[SQL Developer], challenges=[]]]
+2023-09-18T08:32:29.266Z FINE        select * from (
+select q_.* , row_number() over (order by 1) RN___ from (
+SELECT MAIN_QUERY.* FROM (
+                        
+                          SELECT
+                              OWNER,
+                              OBJECT_TYPE,
+                              OBJECT_NAME,
+                              UPPER(OBJECT_NAME) OBJECT_NAME_UPPER,
+                              STATUS
+                          FROM
+                              (
+                                  SELECT
+                                      OBJECT_TYPE,
+                                      OBJECT_NAME,
+                                      STATUS,
+                                      OWNER
+                                  FROM
+                                      ALL_OBJECTS
+                                  UNION ALL
+                                  SELECT
+                                      'DATABASE LINK' AS OBJECT_TYPE,
+                                      DB_LINK AS OBJECT_NAME,
+                                      'N/A' AS STATUS,
+                                      OWNER
+                                  FROM
+                                      SYS.ALL_DB_LINKS
+                                  UNION ALL
+                                  SELECT
+                                    'PUBLIC_SYNONYM' AS OBJECT_TYPE,
+                                    s.SYNONYM_NAME AS OBJECT_NAME,
+                                    o.STATUS,
+                                    s.OWNER
+                                  FROM ALL_SYNONYMS s, ALL_OBJECTS o
+                                  WHERE
+                                        s.OWNER = 'PUBLIC'
+                                    AND s.OWNER = o.OWNER
+                                    AND o.OBJECT_TYPE = 'SYNONYM'
+                                    AND s.SYNONYM_NAME = o.OBJECT_NAME
+                              )
+                        
+                    ) MAIN_QUERY WHERE  ( (object_type = :F__QV_0  AND  owner = :F__QV_1) )  ORDER BY object_name ASC
+) q_
+) 
+where RN___ between :row_offset and :row_count declares the following explicit parameters, but does not reference them: ParameterKey [match=PAGE_SIZE, original=page_size, quoted=false], ParameterKey [match=FETCH_SIZE, original=fetch_size, quoted=false], ParameterKey [match=FETCH_OFFSET, original=fetch_offset, quoted=false]
+2023-09-18T08:32:29.272Z TIMING      <4XzPx9IgFbxKPLouf7vppQ> [TE] dispatch start: 2023-09-18T08:32:29.241694Z duration: 30ms
+2023-09-18T08:32:29.275Z TIMING      <4XzPx9IgFbxKPLouf7vppQ> [TE] GET /ords/cvgt/_sdw/_services/objects/type/?limit=100&offset=0&q=%7B%22%24orderby%22%3A%7B%22object_name%22%3A%22ASC%22%7D%2C%22%24and%22%3A%5B%7B%22object_type%22%3A%7B%22%24eq%22%3A%22SEQUENCE%22%7D%7D%2C%7B%22owner%22%3A%7B%22%24eq%22%3A%22CVGT%22%7D%7D%5D%7D start: 2023-09-18T08:32:29.179412Z duration: 95ms
+2023-09-18T08:32:29.336Z TIMING      <FquSeYOj4hxyXs7Lts5fYg> [TE] dispatch start: 2023-09-18T08:32:29.263687Z duration: 73ms
+2023-09-18T08:32:29.339Z TIMING      <FquSeYOj4hxyXs7Lts5fYg> [TE] GET /ords/cvgt/_sdw/_services/objects/type/?limit=100&offset=0&q=%7B%22%24orderby%22%3A%7B%22object_name%22%3A%22ASC%22%7D%2C%22%24and%22%3A%5B%7B%22object_type%22%3A%7B%22%24eq%22%3A%22TABLE%22%7D%7D%2C%7B%22owner%22%3A%7B%22%24eq%22%3A%22CVGT%22%7D%7D%5D%7D start: 2023-09-18T08:32:29.203294Z duration: 136ms
+2023-09-18T08:32:29.407Z TIMING      <g5FPVzpf_aL8C4AeRVmU8Q> [TE] url-mapping start: 2023-09-18T08:32:29.407380Z duration: 0ms
+2023-09-18T08:32:29.407Z FINE        Mapped request to: oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping@1de94a85
+2023-09-18T08:32:29.407Z FINE        Mapped request to: URLMapping [mapper=/*] -> |default|lo|
+2023-09-18T08:32:29.408Z FINE        Mapped request to: URLMapping [mapper=/cvgt/*]
+2023-09-18T08:32:29.409Z FINE        Injecting setting: conf.use.wallet = true
+2023-09-18T08:32:29.409Z FINE        Injecting setting: resource.templates.enabled = false
+2023-09-18T08:32:29.409Z FINE        Injecting setting: json.sdo.geometry.output.geojson = false
+2023-09-18T08:32:29.409Z FINE        Injecting setting: cache.metadata.enabled = false
+2023-09-18T08:32:29.409Z FINE        Injecting setting: cache.metadata.timeout = 11m
+2023-09-18T08:32:29.409Z FINE        Injecting setting: jdbc.cleanup.mode = RECYCLE
+2023-09-18T08:32:29.409Z FINE        Injecting setting: jdbc.MaxConnectionReuseCount = 5000
+2023-09-18T08:32:29.409Z FINE        Injecting setting: db.connectionType = basic
+2023-09-18T08:32:29.409Z FINE        Injecting setting: db.invalidPoolTimeout = 15m
+2023-09-18T08:32:29.409Z FINE        Injecting setting: debug.trackResources = false
+2023-09-18T08:32:29.409Z FINE        Injecting setting: db.hostname = c3cssgtpre01-scan.sgtech.pre.corp
+2023-09-18T08:32:29.409Z FINE        Injecting setting: jdbc.auth.enabled = false
+2023-09-18T08:32:29.409Z FINE        Injecting setting: jdbc.DriverType = thin
+2023-09-18T08:32:29.409Z FINE        Injecting setting: jdbc.InactivityTimeout = 1800
+2023-09-18T08:32:29.409Z FINE        Injecting setting: jdbc.InitialLimit = 100
+2023-09-18T08:32:29.409Z FINE        Injecting setting: jdbc.MaxLimit = 100
+2023-09-18T08:32:29.409Z FINE        Injecting setting: jdbc.MaxStatementsLimit = 10
+2023-09-18T08:32:29.409Z FINE        Injecting setting: jdbc.MinLimit = 2
+2023-09-18T08:32:29.409Z FINE        Injecting setting: jdbc.statementTimeout = 900s
+2023-09-18T08:32:29.409Z FINE        Injecting setting: jdbc.ConnectionWaitTimeout = 3
+2023-09-18T08:32:29.409Z FINE        Injecting setting: jdbc.ucp.enableJMX = true
+2023-09-18T08:32:29.409Z FINE        Injecting setting: db.password = ********
+2023-09-18T08:32:29.409Z FINE        Injecting setting: plsql.gateway.mode = DISABLED
+2023-09-18T08:32:29.409Z FINE        Injecting setting: db.poolDestroyTimeout = 5m
+2023-09-18T08:32:29.409Z FINE        Injecting setting: db.port = 1521
+2023-09-18T08:32:29.409Z FINE        Injecting setting: restEnabledSql.active = true
+2023-09-18T08:32:29.409Z FINE        Injecting setting: db.servicename = otiscvgt_cvgt_dev.sgtech.pre.corp
+2023-09-18T08:32:29.409Z FINE        Injecting setting: db.username = ORDS_PUBLIC_USER
+2023-09-18T08:32:29.409Z FINE        Injecting setting: db.wallet.cache = /tmp/ords-wallet-cache
+2023-09-18T08:32:29.409Z FINE        Injecting setting: db.batchload.errorsMax = 100
+2023-09-18T08:32:29.409Z FINE        Injecting setting: db.credentialsSource = POOL
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.credentials.lock.time = 10m
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.credentials.attempts = -1
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.jwt.allowed.skew = 0s
+2023-09-18T08:32:29.410Z FINE        Injecting setting: error.responseFormat = AUTO
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.forceHTTPS = false
+2023-09-18T08:32:29.410Z FINE        Injecting setting: debug.printDebugToScreen = true
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.verifySSL = true
+2023-09-18T08:32:29.410Z FINE        Injecting setting: cache.expireAfterAccessOWAJDBCURL = 30m
+2023-09-18T08:32:29.410Z FINE        Injecting setting: cache.maxOWAJDBCURL = 10000
+2023-09-18T08:32:29.410Z FINE        Injecting setting: cache.expireAfterWriteProcedure = -1s
+2023-09-18T08:32:29.410Z FINE        Injecting setting: cache.expireAfterAccessProcedure = 120m
+2023-09-18T08:32:29.410Z FINE        Injecting setting: cache.maxOWAProcedures = 1000
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.maxEntries = 2000
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.validationCacheExpiration = -1s
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.validationCacheExpireAfterAccess  = 120m
+2023-09-18T08:32:29.410Z FINE        Injecting setting: misc.defaultPage = apex
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.requestValidationFunction = ords_util.authorize_plsql_gateway
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.validationFunctionType = plsql
+2023-09-18T08:32:29.410Z FINE        Injecting setting: owa.trace.sql = false
+2023-09-18T08:32:29.410Z FINE        Injecting setting: misc.pagination.maxRows = 10000
+2023-09-18T08:32:29.410Z FINE        Injecting setting: apex.security.administrator.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:32:29.410Z FINE        Injecting setting: apex.security.developer.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:32:29.410Z FINE        Injecting setting: apex.security.user.roles = 
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.generate.token.enabled = false
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.generate.token.lifetime = 10m
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.token.exchange.redirectUrl = /ords/admin/_sdw/
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.token.exchange.jwt.allowed.age = 10s
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.jwt.authenticators = DATABASE
+2023-09-18T08:32:29.410Z FINE        Injecting setting: security.oauth.tokenLifetime = 1h
+2023-09-18T08:32:29.410Z FINE        Injecting setting: database.api.enabled = true
+2023-09-18T08:32:29.410Z FINE        Injecting setting: database.api.management.services.disabled = false
+2023-09-18T08:32:29.410Z FINE        Injecting setting: feature.openservicebroker.exclude = false
+2023-09-18T08:32:29.410Z FINE        Injecting setting: mongo.access.log = /var/log/ords/mongologs
+2023-09-18T08:32:29.410Z FINE        Injecting setting: mongo.enabled = true
+2023-09-18T08:32:29.410Z FINE        Injecting setting: mongo.host = 0.0.0.0
+2023-09-18T08:32:29.410Z FINE        Injecting setting: mongo.idle.timeout = 30m
+2023-09-18T08:32:29.410Z FINE        Injecting setting: mongo.op.timeout = 10m
+2023-09-18T08:32:29.410Z FINE        Injecting setting: mongo.port = 27017
+2023-09-18T08:32:29.410Z FINE        Injecting setting: standalone.access.log = /var/log/ords
+2023-09-18T08:32:29.410Z FINE        Injecting setting: standalone.context.path = /ords
+2023-09-18T08:32:29.410Z FINE        Injecting setting: standalone.doc.root = /home/oracle/ords/config/global/doc_root
+2023-09-18T08:32:29.410Z FINE        Injecting setting: standalone.http.port = 8080
+2023-09-18T08:32:29.410Z FINE        Injecting setting: standalone.binds = 0.0.0.0
+2023-09-18T08:32:29.410Z FINE        Injecting setting: standalone.https.port = 8443
+2023-09-18T08:32:29.410Z FINE        Injecting setting: standalone.https.cert = /home/oracle/ords/config/global/standalone/client.der
+2023-09-18T08:32:29.410Z FINE        Injecting setting: standalone.https.cert.key = /home/oracle/ords/config/global/standalone/client-key.der
+2023-09-18T08:32:29.410Z FINE        Injecting setting: standalone.static.context.path = /i
+2023-09-18T08:32:29.410Z FINE        Injecting setting: standalone.stop.timeout = 10s
+2023-09-18T08:32:29.410Z FINE        Injecting setting: feature.sdw = true
+2023-09-18T08:32:29.410Z FINE        Injecting setting: feature.sdw.selfServiceSchema = false
+2023-09-18T08:32:29.410Z FINE        Injecting setting: instance.api.token = ORDS_INSTANCE_AUTH_TOKEN
+2023-09-18T08:32:29.410Z FINE        Injecting setting: instance.api.header = X-ORDS-Instance-Auth-Token
+2023-09-18T08:32:29.410Z FINE        Injecting setting: feature.serviceconsole = false
+2023-09-18T08:32:29.411Z FINE        Injecting connection of type: DEFAULT
+2023-09-18T08:32:29.413Z FINE        authenticated request as: --Attributes--
+oracle.dbtools.http.servlet.UriRequest = UriRequest [uri=http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/_/db-api/stable/ords/rest/autorest/?q={"type":{"$eq":"TABLE"}}, contextPath=/ords/cvgt]
+oracle.dbtools.http.ecid = g5FPVzpf_aL8C4AeRVmU8Q
+oracle.dbtools.common.di.Services = URL Mapped Scope
+oracle.dbtools.plugin.api.di.InstanceLocator = URL Mapped Scope
+--Attributes--
+GET [/ords/cvgt]/_/db-api/stable/ords/rest/autorest/?q={"type":{"$eq":"TABLE"}} HTTP/1.1
+Host: isblccoraci0027.scisb.isban.corp
+Cookie: __ords_sid__=AT__..
+If-None-Match: "lwkG7kS++CWcIEZI5PFd7+vm4oyzVn4rKiecJn7YpeIF5FuiCRQJCdQetD3xdr/y+BdRdNpMGHWG0veQRVXT9g=="
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/_sdw/?nav=worksheet
+Host: isblccoraci0027.scisb.isban.corp:8080
+Accept-Encoding: gzip, deflate
+Accept-Language: es-ES,es;q=0.9
+Principal: {user: CVGT, roles: [SQL Developer, SODA Developer]}
+
+
+2023-09-18T08:32:29.423Z FINE        Choosing: oracle.dbtools.rest.resource.modules.xml.XMLResourceModuleSet$MetadataAdapter as current candidate with score: oracle.dbtools.rest.resource.modules.xml.XMLResourceModuleSet$XMLResourceHandlerScore@74d11e78
+2023-09-18T08:32:29.424Z FINE        Choosing: oracle.dbtools.rest.resource.modules.xml.StaticAdminModulesDispatcher as current candidate with score: oracle.dbtools.rest.resource.modules.xml.XMLResourceModuleSet$XMLResourceHandlerScore@74d11e78
+2023-09-18T08:32:29.439Z FINE        using constraint: MatchedRequestPattern [index=38, pattern=/_/db-api/stable/ords/rest/*, match={$glob_prefix=/_/db-api/stable/ords/rest/, *=autorest/, q={"type":{"$eq":"TABLE"}}}, targets=[PrivilegeConstraintImpl [name=oracle.dbtools.ords.db-api.developer, roles=[SQL Administrator, SQL Developer], challenges=[]]]]
+2023-09-18T08:32:29.439Z FINE        Mapped: SQL Developer, SODA Developer to: SQL Developer, SODA Developer
+2023-09-18T08:32:29.439Z FINE        Mapped: SQL Developer, SODA Developer to: SQL Developer, SODA Developer
+2023-09-18T08:32:29.439Z FINE        CVGT is authorized to access: [PrivilegeConstraintImpl [name=oracle.dbtools.ords.db-api.developer, roles=[SQL Administrator, SQL Developer], challenges=[]]]
+2023-09-18T08:32:29.442Z FINE        select * from (
+select q_.* , row_number() over (order by 1) RN___ from (
+SELECT MAIN_QUERY.* FROM (
+                            
+WITH
+OBJECTS_WITH_PRIVS AS (
+    SELECT
+        USER_ORDS_ENABLED_OBJECTS.ID,
+        USER_ORDS_ENABLED_OBJECTS.SCHEMA_ID,
+        USER_ORDS_ENABLED_OBJECTS.PARSING_SCHEMA,
+        USER_ORDS_ENABLED_OBJECTS.PARSING_OBJECT,
+        USER_ORDS_ENABLED_OBJECTS.OBJECT_ALIAS,
+        USER_ORDS_ENABLED_OBJECTS.TYPE,
+        USER_ORDS_ENABLED_OBJECTS.STATUS,
+        USER_ORDS_ENABLED_OBJECTS.AUTO_REST_AUTH,
+        USER_ORDS_ENABLED_OBJECTS.OPS_ALLOWED,
+        USER_ORDS_ENABLED_OBJECTS.TYPE_PATH,
+        USER_ORDS_ENABLED_OBJECTS.PRE_HOOK,
+        USER_ORDS_PRIVILEGES.ID AS PRIV_ID,
+        USER_ORDS_PRIVILEGES.NAME AS PRIV_NAME
+    FROM
+        ORDS_METADATA.USER_ORDS_ENABLED_OBJECTS LEFT JOIN ORDS_METADATA.USER_ORDS_PRIVILEGES ON
+            USER_ORDS_PRIVILEGES.NAME = 'oracle.dbtools.autorest.privilege.'
+                                        || SYS_CONTEXT( 'USERENV', 'CURRENT_USER' )
+                                        || '.' || USER_ORDS_ENABLED_OBJECTS.PARSING_OBJECT
+)
+SELECT
+    OBJECTS_WITH_PRIVS.ID,
+    OBJECTS_WITH_PRIVS.SCHEMA_ID,
+    OBJECTS_WITH_PRIVS.PARSING_SCHEMA,
+    OBJECTS_WITH_PRIVS.PARSING_OBJECT,
+    OBJECTS_WITH_PRIVS.OBJECT_ALIAS,
+    OBJECTS_WITH_PRIVS.TYPE,
+    OBJECTS_WITH_PRIVS.STATUS,
+    OBJECTS_WITH_PRIVS.AUTO_REST_AUTH,
+    OBJECTS_WITH_PRIVS.OPS_ALLOWED,
+    OBJECTS_WITH_PRIVS.TYPE_PATH,
+    OBJECTS_WITH_PRIVS.PRE_HOOK,
+    OBJECTS_WITH_PRIVS.PRIV_NAME AS PRIVILEGE,
+    NVL2(
+        OBJECTS_WITH_PRIVS.PRIV_ID,
+        '../objects/privileges/' || OBJECTS_WITH_PRIVS.PRIV_ID,
+        NULL
+    ) AS "$PRIVILEGE",
+    USER_ORDS_ROLES.NAME AS ROLE,
+    NVL2(
+        USER_ORDS_ROLES.ID,
+        '../objects/roles/' || USER_ORDS_ROLES.ID,
+        NULL
+    ) AS "$ROLE"
+FROM
+    OBJECTS_WITH_PRIVS LEFT JOIN ORDS_METADATA.USER_ORDS_ROLES ON
+        USER_ORDS_ROLES.NAME = 'oracle.dbtools.role.autorest.'
+                                            || SYS_CONTEXT( 'USERENV', 'CURRENT_USER' )
+                                            || '.' || OBJECTS_WITH_PRIVS.PARSING_OBJECT
+                            
+                        ) MAIN_QUERY WHERE  (type = :F__QV_0) 
+) q_
+) 
+where RN___ between :row_offset and :row_count declares the following explicit parameters, but does not reference them: ParameterKey [match=PAGE_SIZE, original=page_size, quoted=false], ParameterKey [match=FETCH_SIZE, original=fetch_size, quoted=false], ParameterKey [match=FETCH_OFFSET, original=fetch_offset, quoted=false]
+2023-09-18T08:32:29.516Z TIMING      <g5FPVzpf_aL8C4AeRVmU8Q> [TE] dispatch start: 2023-09-18T08:32:29.439461Z duration: 77ms
+2023-09-18T08:32:29.519Z TIMING      <g5FPVzpf_aL8C4AeRVmU8Q> [TE] GET /ords/cvgt/_/db-api/stable/ords/rest/autorest/?q=%7B%22type%22%3A%7B%22%24eq%22%3A%22TABLE%22%7D%7D start: 2023-09-18T08:32:29.406369Z duration: 112ms
+2023-09-18T08:32:32.414Z TIMING      <WrqTwvT3HI_b_DWyAaiVMQ> [TE] url-mapping start: 2023-09-18T08:32:32.414090Z duration: 0ms
+2023-09-18T08:32:32.414Z FINE        Mapped request to: oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping@1de94a85
+2023-09-18T08:32:32.414Z FINE        Mapped request to: URLMapping [mapper=/*] -> |default|lo|
+2023-09-18T08:32:32.414Z FINE        Mapped request to: URLMapping [mapper=/cvgt/*]
+2023-09-18T08:32:32.417Z FINE        Injecting setting: conf.use.wallet = true
+2023-09-18T08:32:32.417Z FINE        Injecting setting: resource.templates.enabled = false
+2023-09-18T08:32:32.417Z FINE        Injecting setting: json.sdo.geometry.output.geojson = false
+2023-09-18T08:32:32.417Z FINE        Injecting setting: cache.metadata.enabled = false
+2023-09-18T08:32:32.417Z FINE        Injecting setting: cache.metadata.timeout = 11m
+2023-09-18T08:32:32.417Z FINE        Injecting setting: jdbc.cleanup.mode = RECYCLE
+2023-09-18T08:32:32.417Z FINE        Injecting setting: jdbc.MaxConnectionReuseCount = 5000
+2023-09-18T08:32:32.417Z FINE        Injecting setting: db.connectionType = basic
+2023-09-18T08:32:32.417Z FINE        Injecting setting: db.invalidPoolTimeout = 15m
+2023-09-18T08:32:32.417Z FINE        Injecting setting: debug.trackResources = false
+2023-09-18T08:32:32.417Z FINE        Injecting setting: db.hostname = c3cssgtpre01-scan.sgtech.pre.corp
+2023-09-18T08:32:32.417Z FINE        Injecting setting: jdbc.auth.enabled = false
+2023-09-18T08:32:32.417Z FINE        Injecting setting: jdbc.DriverType = thin
+2023-09-18T08:32:32.417Z FINE        Injecting setting: jdbc.InactivityTimeout = 1800
+2023-09-18T08:32:32.417Z FINE        Injecting setting: jdbc.InitialLimit = 100
+2023-09-18T08:32:32.417Z FINE        Injecting setting: jdbc.MaxLimit = 100
+2023-09-18T08:32:32.417Z FINE        Injecting setting: jdbc.MaxStatementsLimit = 10
+2023-09-18T08:32:32.417Z FINE        Injecting setting: jdbc.MinLimit = 2
+2023-09-18T08:32:32.417Z FINE        Injecting setting: jdbc.statementTimeout = 900s
+2023-09-18T08:32:32.417Z FINE        Injecting setting: jdbc.ConnectionWaitTimeout = 3
+2023-09-18T08:32:32.417Z FINE        Injecting setting: jdbc.ucp.enableJMX = true
+2023-09-18T08:32:32.417Z FINE        Injecting setting: db.password = ********
+2023-09-18T08:32:32.418Z FINE        Injecting setting: plsql.gateway.mode = DISABLED
+2023-09-18T08:32:32.418Z FINE        Injecting setting: db.poolDestroyTimeout = 5m
+2023-09-18T08:32:32.418Z FINE        Injecting setting: db.port = 1521
+2023-09-18T08:32:32.418Z FINE        Injecting setting: restEnabledSql.active = true
+2023-09-18T08:32:32.418Z FINE        Injecting setting: db.servicename = otiscvgt_cvgt_dev.sgtech.pre.corp
+2023-09-18T08:32:32.418Z FINE        Injecting setting: db.username = ORDS_PUBLIC_USER
+2023-09-18T08:32:32.418Z FINE        Injecting setting: db.wallet.cache = /tmp/ords-wallet-cache
+2023-09-18T08:32:32.418Z FINE        Injecting setting: db.batchload.errorsMax = 100
+2023-09-18T08:32:32.418Z FINE        Injecting setting: db.credentialsSource = POOL
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.credentials.lock.time = 10m
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.credentials.attempts = -1
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.jwt.allowed.skew = 0s
+2023-09-18T08:32:32.418Z FINE        Injecting setting: error.responseFormat = AUTO
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.forceHTTPS = false
+2023-09-18T08:32:32.418Z FINE        Injecting setting: debug.printDebugToScreen = true
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.verifySSL = true
+2023-09-18T08:32:32.418Z FINE        Injecting setting: cache.expireAfterAccessOWAJDBCURL = 30m
+2023-09-18T08:32:32.418Z FINE        Injecting setting: cache.maxOWAJDBCURL = 10000
+2023-09-18T08:32:32.418Z FINE        Injecting setting: cache.expireAfterWriteProcedure = -1s
+2023-09-18T08:32:32.418Z FINE        Injecting setting: cache.expireAfterAccessProcedure = 120m
+2023-09-18T08:32:32.418Z FINE        Injecting setting: cache.maxOWAProcedures = 1000
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.maxEntries = 2000
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.validationCacheExpiration = -1s
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.validationCacheExpireAfterAccess  = 120m
+2023-09-18T08:32:32.418Z FINE        Injecting setting: misc.defaultPage = apex
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.requestValidationFunction = ords_util.authorize_plsql_gateway
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.validationFunctionType = plsql
+2023-09-18T08:32:32.418Z FINE        Injecting setting: owa.trace.sql = false
+2023-09-18T08:32:32.418Z FINE        Injecting setting: misc.pagination.maxRows = 10000
+2023-09-18T08:32:32.418Z FINE        Injecting setting: apex.security.administrator.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:32:32.418Z FINE        Injecting setting: apex.security.developer.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:32:32.418Z FINE        Injecting setting: apex.security.user.roles = 
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.generate.token.enabled = false
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.generate.token.lifetime = 10m
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.token.exchange.redirectUrl = /ords/admin/_sdw/
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.token.exchange.jwt.allowed.age = 10s
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.jwt.authenticators = DATABASE
+2023-09-18T08:32:32.418Z FINE        Injecting setting: security.oauth.tokenLifetime = 1h
+2023-09-18T08:32:32.418Z FINE        Injecting setting: database.api.enabled = true
+2023-09-18T08:32:32.418Z FINE        Injecting setting: database.api.management.services.disabled = false
+2023-09-18T08:32:32.418Z FINE        Injecting setting: feature.openservicebroker.exclude = false
+2023-09-18T08:32:32.418Z FINE        Injecting setting: mongo.access.log = /var/log/ords/mongologs
+2023-09-18T08:32:32.418Z FINE        Injecting setting: mongo.enabled = true
+2023-09-18T08:32:32.418Z FINE        Injecting setting: mongo.host = 0.0.0.0
+2023-09-18T08:32:32.418Z FINE        Injecting setting: mongo.idle.timeout = 30m
+2023-09-18T08:32:32.418Z FINE        Injecting setting: mongo.op.timeout = 10m
+2023-09-18T08:32:32.418Z FINE        Injecting setting: mongo.port = 27017
+2023-09-18T08:32:32.418Z FINE        Injecting setting: standalone.access.log = /var/log/ords
+2023-09-18T08:32:32.418Z FINE        Injecting setting: standalone.context.path = /ords
+2023-09-18T08:32:32.418Z FINE        Injecting setting: standalone.doc.root = /home/oracle/ords/config/global/doc_root
+2023-09-18T08:32:32.418Z FINE        Injecting setting: standalone.http.port = 8080
+2023-09-18T08:32:32.418Z FINE        Injecting setting: standalone.binds = 0.0.0.0
+2023-09-18T08:32:32.418Z FINE        Injecting setting: standalone.https.port = 8443
+2023-09-18T08:32:32.418Z FINE        Injecting setting: standalone.https.cert = /home/oracle/ords/config/global/standalone/client.der
+2023-09-18T08:32:32.418Z FINE        Injecting setting: standalone.https.cert.key = /home/oracle/ords/config/global/standalone/client-key.der
+2023-09-18T08:32:32.418Z FINE        Injecting setting: standalone.static.context.path = /i
+2023-09-18T08:32:32.418Z FINE        Injecting setting: standalone.stop.timeout = 10s
+2023-09-18T08:32:32.418Z FINE        Injecting setting: feature.sdw = true
+2023-09-18T08:32:32.418Z FINE        Injecting setting: feature.sdw.selfServiceSchema = false
+2023-09-18T08:32:32.418Z FINE        Injecting setting: instance.api.token = ORDS_INSTANCE_AUTH_TOKEN
+2023-09-18T08:32:32.418Z FINE        Injecting setting: instance.api.header = X-ORDS-Instance-Auth-Token
+2023-09-18T08:32:32.418Z FINE        Injecting setting: feature.serviceconsole = false
+2023-09-18T08:32:32.426Z FINE        Injecting connection of type: DEFAULT
+2023-09-18T08:32:32.429Z FINE        authenticated request as: --Attributes--
+oracle.dbtools.http.servlet.UriRequest = UriRequest [uri=http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/soda/latest/metadata-catalog/?limit=1000&offset=0&q={}, contextPath=/ords/cvgt]
+oracle.dbtools.http.ecid = WrqTwvT3HI_b_DWyAaiVMQ
+oracle.dbtools.common.di.Services = URL Mapped Scope
+oracle.dbtools.plugin.api.di.InstanceLocator = URL Mapped Scope
+--Attributes--
+GET [/ords/cvgt]/soda/latest/metadata-catalog/?limit=1000&offset=0&q={} HTTP/1.1
+Host: isblccoraci0027.scisb.isban.corp
+Cookie: __ords_sid__=AT__..
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/_sdw/?nav=application&application=soda&page=Home
+Host: isblccoraci0027.scisb.isban.corp:8080
+Accept-Encoding: gzip, deflate
+Accept-Language: es-ES,es;q=0.9
+Principal: {user: CVGT, roles: [SQL Developer, SODA Developer]}
+
+
+2023-09-18T08:32:32.442Z INFO        <WrqTwvT3HI_b_DWyAaiVMQ> GET isblccoraci0027.scisb.isban.corp /ords/cvgt/soda/latest/metadata-catalog/?limit=1000&offset=0&q=%7B%7D 403 The user can not access the ORDS Metadata database objects. Please consult the section in the ORDS documentation titled 'Troubleshooting ORDS Metadata database objects access'.
+ORDSMetadataNotFoundException [statusCode=403, logLevel=INFO, reasons=[The user can not access the ORDS Metadata database objects. Please consult the section in the ORDS documentation titled 'Troubleshooting ORDS Metadata database objects access'.]]
+	at oracle.dbtools.rest.resource.privileges.jdbc.JDBCPrivilegeMappings.mappings(JDBCPrivilegeMappings.java:218)
+	at oracle.dbtools.rest.resource.privileges.jdbc.JDBCPrivilegeMappings.authorizationConstraint(JDBCPrivilegeMappings.java:84)
+	at oracle.dbtools.rest.resource.privileges.cache.PrivilegeCache.authorizationConstraint(PrivilegeCache.java:43)
+	at oracle.dbtools.rest.resource.privileges.cache.CachedPrivilegeMappings.authorizationConstraint(CachedPrivilegeMappings.java:82)
+	at oracle.dbtools.http.auth.RequestAuthorizationProvider.authorizationConstraint(RequestAuthorizationProvider.java:85)
+	at oracle.dbtools.http.auth.AuthorizationConstraintsDispatchHook.getConstraint(AuthorizationConstraintsDispatchHook.java:64)
+	at oracle.dbtools.http.auth.AuthorizationConstraintsDispatchHook.before(AuthorizationConstraintsDispatchHook.java:42)
+	at oracle.dbtools.http.dispatch.hooks.DispatchHookChain.before(DispatchHookChain.java:34)
+	at oracle.dbtools.http.dispatch.hooks.DispatchHooks.before(DispatchHooks.java:49)
+	at oracle.dbtools.http.entrypoint.Dispatcher.dispatch(Dispatcher.java:122)
+	at oracle.dbtools.http.entrypoint.EntryPoint$FilteredServlet.service(EntryPoint.java:170)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:73)
+	at oracle.dbtools.http.forwarding.QueryFilteringRewrite.doFilter(QueryFilteringRewrite.java:90)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.forwarding.ForwardingFilter.doFilter(ForwardingFilter.java:69)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.cors.CORSPreflightFilter.doFilter(CORSPreflightFilter.java:68)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.cookies.auth.CookieSessionCSRFFilter.doFilter(CookieSessionCSRFFilter.java:69)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.AuthenticationFilter.authenticate(AuthenticationFilter.java:91)
+	at oracle.dbtools.http.auth.AuthenticationFilter.doFilter(AuthenticationFilter.java:64)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.url.mapping.RequestMapperImpl.doFilter(RequestMapperImpl.java:158)
+	at oracle.dbtools.url.mapping.URLMappingBase.doFilter(URLMappingBase.java:89)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMapping.dispatchSelf(DatabaseTenantMapping.java:212)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.doFilter(DatabaseTenantMappingBase.java:51)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingDispatcher.dispatch(TenantMappingDispatcher.java:56)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.dispatchChild(DatabaseTenantMappingBase.java:152)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.doFilter(DatabaseTenantMappingBase.java:49)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingDispatcher.dispatch(TenantMappingDispatcher.java:56)
+	at oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping.dispatchSelf(DefaultLocalTenantMapping.java:132)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.doFilter(DatabaseTenantMappingBase.java:51)
+	at oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping.doFilter(DefaultLocalTenantMapping.java:100)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingDispatcher.dispatch(TenantMappingDispatcher.java:56)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingFilter.doFilter(TenantMappingFilter.java:84)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.forwarding.ForwardingFailedFilter.doFilter(ForwardingFailedFilter.java:41)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.external.ExternalSessionFilter.doFilter(ExternalSessionFilter.java:59)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.apex.support.auth.ApexSessionQueryRewriteFilter.doFilter(ApexSessionQueryRewriteFilter.java:58)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.cors.CORSResponseFilter.doFilter(CORSResponseFilter.java:90)
+	at oracle.dbtools.http.filters.HttpResponseFilter.doFilter(HttpResponseFilter.java:45)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.filters.AbsoluteLocationFilter.doFilter(AbsoluteLocationFilter.java:65)
+	at oracle.dbtools.http.filters.HttpResponseFilter.doFilter(HttpResponseFilter.java:45)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.external.ExternalAccessValidationFilter.doFilter(ExternalAccessValidationFilter.java:59)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.errors.ErrorPageFilter.doFilter(ErrorPageFilter.java:87)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.secure.ForceHttpsFilter.doFilter(ForceHttpsFilter.java:74)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.ForceAuthFilter.doFilter(ForceAuthFilter.java:44)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.filters.Filters.filter(Filters.java:67)
+	at oracle.dbtools.http.entrypoint.EntryPoint.service(EntryPoint.java:70)
+	at oracle.dbtools.http.entrypoint.EntryPointServlet.service(EntryPointServlet.java:130)
+	at oracle.dbtools.entrypoint.WebApplicationRequestEntryPoint.service(WebApplicationRequestEntryPoint.java:50)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:529)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1571)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1383)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1544)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1305)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:173)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$0(HttpChannel.java:505)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:762)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:497)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:282)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.lambda$new$0(AdaptiveExecutionStrategy.java:139)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:933)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1077)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1
+ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:163)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1010)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1271)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1149)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1661)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1470)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3761)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3936)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1102)
+	at oracle.ucp.jdbc.proxy.oracle$1ucp$1jdbc$1proxy$1oracle$1StatementProxy$2oracle$1jdbc$1internal$1OraclePreparedStatement$$$Proxy.executeQuery(Unknown Source)
+	at oracle.dbtools.rest.resource.privileges.jdbc.JDBCPrivilegeMappings.mappings(JDBCPrivilegeMappings.java:171)
+	... 107 more
+Caused by: Error : 604, Position : 0, Sql = select
+p.name,
+p.label,
+p.description,
+pm.pattern,
+cursor(select r.name from ords_metadata.user_ords_privilege_roles pr,
+                          ords_metadata.user_ords_roles r
+                     where pr.privilege_id = p.id
+                           and pr.role_id = r.id) roles
+from ords_metadata.user_ords_privileges p,
+     ords_metadata.user_ords_privilege_mappings pm
+where instr(:1 ,trim(trailing '*' from pm.pattern)) = 1 and pm.privilege_id = p.id
+order by pm.pattern desc
+, OriginalSql = select
+p.name,
+p.label,
+p.description,
+pm.pattern,
+cursor(select r.name from ords_metadata.user_ords_privilege_roles pr,
+                          ords_metadata.user_ords_roles r
+                     where pr.privilege_id = p.id
+                           and pr.role_id = r.id) roles
+from ords_metadata.user_ords_privileges p,
+     ords_metadata.user_ords_privilege_mappings pm
+where instr(?,trim(trailing '*' from pm.pattern)) = 1 and pm.privilege_id = p.id
+order by pm.pattern desc
+, Error Msg = ORA-00604: error occurred at recursive SQL level 1
+ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 123 more
+
+2023-09-18T08:32:32.459Z TIMING      <WrqTwvT3HI_b_DWyAaiVMQ> [TE] GET /ords/cvgt/soda/latest/metadata-catalog/?limit=1000&offset=0&q=%7B%7D start: 2023-09-18T08:32:32.412880Z duration: 46ms
+2023-09-18T08:32:32.464Z TIMING      <IKptfI6iKYL8BRbLsGVP2A> [TE] url-mapping start: 2023-09-18T08:32:32.464333Z duration: 0ms
+2023-09-18T08:32:32.464Z FINE        Mapped request to: oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping@1de94a85
+2023-09-18T08:32:32.464Z FINE        Mapped request to: URLMapping [mapper=/*] -> |default|lo|
+2023-09-18T08:32:32.465Z FINE        Mapped request to: URLMapping [mapper=/cvgt/*]
+2023-09-18T08:32:32.466Z FINE        Injecting setting: conf.use.wallet = true
+2023-09-18T08:32:32.466Z FINE        Injecting setting: resource.templates.enabled = false
+2023-09-18T08:32:32.466Z FINE        Injecting setting: json.sdo.geometry.output.geojson = false
+2023-09-18T08:32:32.466Z FINE        Injecting setting: cache.metadata.enabled = false
+2023-09-18T08:32:32.466Z FINE        Injecting setting: cache.metadata.timeout = 11m
+2023-09-18T08:32:32.466Z FINE        Injecting setting: jdbc.cleanup.mode = RECYCLE
+2023-09-18T08:32:32.466Z FINE        Injecting setting: jdbc.MaxConnectionReuseCount = 5000
+2023-09-18T08:32:32.466Z FINE        Injecting setting: db.connectionType = basic
+2023-09-18T08:32:32.466Z FINE        Injecting setting: db.invalidPoolTimeout = 15m
+2023-09-18T08:32:32.466Z FINE        Injecting setting: debug.trackResources = false
+2023-09-18T08:32:32.466Z FINE        Injecting setting: db.hostname = c3cssgtpre01-scan.sgtech.pre.corp
+2023-09-18T08:32:32.466Z FINE        Injecting setting: jdbc.auth.enabled = false
+2023-09-18T08:32:32.466Z FINE        Injecting setting: jdbc.DriverType = thin
+2023-09-18T08:32:32.466Z FINE        Injecting setting: jdbc.InactivityTimeout = 1800
+2023-09-18T08:32:32.466Z FINE        Injecting setting: jdbc.InitialLimit = 100
+2023-09-18T08:32:32.466Z FINE        Injecting setting: jdbc.MaxLimit = 100
+2023-09-18T08:32:32.466Z FINE        Injecting setting: jdbc.MaxStatementsLimit = 10
+2023-09-18T08:32:32.466Z FINE        Injecting setting: jdbc.MinLimit = 2
+2023-09-18T08:32:32.466Z FINE        Injecting setting: jdbc.statementTimeout = 900s
+2023-09-18T08:32:32.466Z FINE        Injecting setting: jdbc.ConnectionWaitTimeout = 3
+2023-09-18T08:32:32.466Z FINE        Injecting setting: jdbc.ucp.enableJMX = true
+2023-09-18T08:32:32.466Z FINE        Injecting setting: db.password = ********
+2023-09-18T08:32:32.466Z FINE        Injecting setting: plsql.gateway.mode = DISABLED
+2023-09-18T08:32:32.466Z FINE        Injecting setting: db.poolDestroyTimeout = 5m
+2023-09-18T08:32:32.466Z FINE        Injecting setting: db.port = 1521
+2023-09-18T08:32:32.466Z FINE        Injecting setting: restEnabledSql.active = true
+2023-09-18T08:32:32.466Z FINE        Injecting setting: db.servicename = otiscvgt_cvgt_dev.sgtech.pre.corp
+2023-09-18T08:32:32.466Z FINE        Injecting setting: db.username = ORDS_PUBLIC_USER
+2023-09-18T08:32:32.467Z FINE        Injecting setting: db.wallet.cache = /tmp/ords-wallet-cache
+2023-09-18T08:32:32.467Z FINE        Injecting setting: db.batchload.errorsMax = 100
+2023-09-18T08:32:32.467Z FINE        Injecting setting: db.credentialsSource = POOL
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.credentials.lock.time = 10m
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.credentials.attempts = -1
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.jwt.allowed.skew = 0s
+2023-09-18T08:32:32.467Z FINE        Injecting setting: error.responseFormat = AUTO
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.forceHTTPS = false
+2023-09-18T08:32:32.467Z FINE        Injecting setting: debug.printDebugToScreen = true
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.verifySSL = true
+2023-09-18T08:32:32.467Z FINE        Injecting setting: cache.expireAfterAccessOWAJDBCURL = 30m
+2023-09-18T08:32:32.467Z FINE        Injecting setting: cache.maxOWAJDBCURL = 10000
+2023-09-18T08:32:32.467Z FINE        Injecting setting: cache.expireAfterWriteProcedure = -1s
+2023-09-18T08:32:32.467Z FINE        Injecting setting: cache.expireAfterAccessProcedure = 120m
+2023-09-18T08:32:32.467Z FINE        Injecting setting: cache.maxOWAProcedures = 1000
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.maxEntries = 2000
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.validationCacheExpiration = -1s
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.validationCacheExpireAfterAccess  = 120m
+2023-09-18T08:32:32.467Z FINE        Injecting setting: misc.defaultPage = apex
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.requestValidationFunction = ords_util.authorize_plsql_gateway
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.validationFunctionType = plsql
+2023-09-18T08:32:32.467Z FINE        Injecting setting: owa.trace.sql = false
+2023-09-18T08:32:32.467Z FINE        Injecting setting: misc.pagination.maxRows = 10000
+2023-09-18T08:32:32.467Z FINE        Injecting setting: apex.security.administrator.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:32:32.467Z FINE        Injecting setting: apex.security.developer.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:32:32.467Z FINE        Injecting setting: apex.security.user.roles = 
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.generate.token.enabled = false
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.generate.token.lifetime = 10m
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.token.exchange.redirectUrl = /ords/admin/_sdw/
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.token.exchange.jwt.allowed.age = 10s
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.jwt.authenticators = DATABASE
+2023-09-18T08:32:32.467Z FINE        Injecting setting: security.oauth.tokenLifetime = 1h
+2023-09-18T08:32:32.467Z FINE        Injecting setting: database.api.enabled = true
+2023-09-18T08:32:32.467Z FINE        Injecting setting: database.api.management.services.disabled = false
+2023-09-18T08:32:32.467Z FINE        Injecting setting: feature.openservicebroker.exclude = false
+2023-09-18T08:32:32.467Z FINE        Injecting setting: mongo.access.log = /var/log/ords/mongologs
+2023-09-18T08:32:32.467Z FINE        Injecting setting: mongo.enabled = true
+2023-09-18T08:32:32.467Z FINE        Injecting setting: mongo.host = 0.0.0.0
+2023-09-18T08:32:32.467Z FINE        Injecting setting: mongo.idle.timeout = 30m
+2023-09-18T08:32:32.467Z FINE        Injecting setting: mongo.op.timeout = 10m
+2023-09-18T08:32:32.467Z FINE        Injecting setting: mongo.port = 27017
+2023-09-18T08:32:32.467Z FINE        Injecting setting: standalone.access.log = /var/log/ords
+2023-09-18T08:32:32.467Z FINE        Injecting setting: standalone.context.path = /ords
+2023-09-18T08:32:32.467Z FINE        Injecting setting: standalone.doc.root = /home/oracle/ords/config/global/doc_root
+2023-09-18T08:32:32.467Z FINE        Injecting setting: standalone.http.port = 8080
+2023-09-18T08:32:32.467Z FINE        Injecting setting: standalone.binds = 0.0.0.0
+2023-09-18T08:32:32.467Z FINE        Injecting setting: standalone.https.port = 8443
+2023-09-18T08:32:32.467Z FINE        Injecting setting: standalone.https.cert = /home/oracle/ords/config/global/standalone/client.der
+2023-09-18T08:32:32.467Z FINE        Injecting setting: standalone.https.cert.key = /home/oracle/ords/config/global/standalone/client-key.der
+2023-09-18T08:32:32.467Z FINE        Injecting setting: standalone.static.context.path = /i
+2023-09-18T08:32:32.467Z FINE        Injecting setting: standalone.stop.timeout = 10s
+2023-09-18T08:32:32.467Z FINE        Injecting setting: feature.sdw = true
+2023-09-18T08:32:32.467Z FINE        Injecting setting: feature.sdw.selfServiceSchema = false
+2023-09-18T08:32:32.467Z FINE        Injecting setting: instance.api.token = ORDS_INSTANCE_AUTH_TOKEN
+2023-09-18T08:32:32.467Z FINE        Injecting setting: instance.api.header = X-ORDS-Instance-Auth-Token
+2023-09-18T08:32:32.467Z FINE        Injecting setting: feature.serviceconsole = false
+2023-09-18T08:32:32.475Z FINE        Injecting connection of type: DEFAULT
+2023-09-18T08:32:32.478Z FINE        authenticated request as: --Attributes--
+oracle.dbtools.http.servlet.UriRequest = UriRequest [uri=http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/soda/latest/metadata-catalog/?limit=1000&offset=0&q={}, contextPath=/ords/cvgt]
+oracle.dbtools.http.ecid = IKptfI6iKYL8BRbLsGVP2A
+oracle.dbtools.common.di.Services = URL Mapped Scope
+oracle.dbtools.plugin.api.di.InstanceLocator = URL Mapped Scope
+--Attributes--
+GET [/ords/cvgt]/soda/latest/metadata-catalog/?limit=1000&offset=0&q={} HTTP/1.1
+Host: isblccoraci0027.scisb.isban.corp
+Cookie: __ords_sid__=AT__..
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/_sdw/?nav=application&application=soda&page=Home
+Host: isblccoraci0027.scisb.isban.corp:8080
+Accept-Encoding: gzip, deflate
+Accept-Language: es-ES,es;q=0.9
+Principal: {user: CVGT, roles: [SQL Developer, SODA Developer]}
+
+
+2023-09-18T08:32:32.486Z INFO        <IKptfI6iKYL8BRbLsGVP2A> GET isblccoraci0027.scisb.isban.corp /ords/cvgt/soda/latest/metadata-catalog/?limit=1000&offset=0&q=%7B%7D 403 The user can not access the ORDS Metadata database objects. Please consult the section in the ORDS documentation titled 'Troubleshooting ORDS Metadata database objects access'.
+ORDSMetadataNotFoundException [statusCode=403, logLevel=INFO, reasons=[The user can not access the ORDS Metadata database objects. Please consult the section in the ORDS documentation titled 'Troubleshooting ORDS Metadata database objects access'.]]
+	at oracle.dbtools.rest.resource.privileges.jdbc.JDBCPrivilegeMappings.mappings(JDBCPrivilegeMappings.java:218)
+	at oracle.dbtools.rest.resource.privileges.jdbc.JDBCPrivilegeMappings.authorizationConstraint(JDBCPrivilegeMappings.java:84)
+	at oracle.dbtools.rest.resource.privileges.cache.PrivilegeCache.authorizationConstraint(PrivilegeCache.java:43)
+	at oracle.dbtools.rest.resource.privileges.cache.CachedPrivilegeMappings.authorizationConstraint(CachedPrivilegeMappings.java:82)
+	at oracle.dbtools.http.auth.RequestAuthorizationProvider.authorizationConstraint(RequestAuthorizationProvider.java:85)
+	at oracle.dbtools.http.auth.AuthorizationConstraintsDispatchHook.getConstraint(AuthorizationConstraintsDispatchHook.java:64)
+	at oracle.dbtools.http.auth.AuthorizationConstraintsDispatchHook.before(AuthorizationConstraintsDispatchHook.java:42)
+	at oracle.dbtools.http.dispatch.hooks.DispatchHookChain.before(DispatchHookChain.java:34)
+	at oracle.dbtools.http.dispatch.hooks.DispatchHooks.before(DispatchHooks.java:49)
+	at oracle.dbtools.http.entrypoint.Dispatcher.dispatch(Dispatcher.java:122)
+	at oracle.dbtools.http.entrypoint.EntryPoint$FilteredServlet.service(EntryPoint.java:170)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:73)
+	at oracle.dbtools.http.forwarding.QueryFilteringRewrite.doFilter(QueryFilteringRewrite.java:90)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.forwarding.ForwardingFilter.doFilter(ForwardingFilter.java:69)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.cors.CORSPreflightFilter.doFilter(CORSPreflightFilter.java:68)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.cookies.auth.CookieSessionCSRFFilter.doFilter(CookieSessionCSRFFilter.java:69)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.AuthenticationFilter.authenticate(AuthenticationFilter.java:91)
+	at oracle.dbtools.http.auth.AuthenticationFilter.doFilter(AuthenticationFilter.java:64)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.url.mapping.RequestMapperImpl.doFilter(RequestMapperImpl.java:158)
+	at oracle.dbtools.url.mapping.URLMappingBase.doFilter(URLMappingBase.java:89)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMapping.dispatchSelf(DatabaseTenantMapping.java:212)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.doFilter(DatabaseTenantMappingBase.java:51)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingDispatcher.dispatch(TenantMappingDispatcher.java:56)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.dispatchChild(DatabaseTenantMappingBase.java:152)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.doFilter(DatabaseTenantMappingBase.java:49)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingDispatcher.dispatch(TenantMappingDispatcher.java:56)
+	at oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping.dispatchSelf(DefaultLocalTenantMapping.java:132)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.doFilter(DatabaseTenantMappingBase.java:51)
+	at oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping.doFilter(DefaultLocalTenantMapping.java:100)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingDispatcher.dispatch(TenantMappingDispatcher.java:56)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingFilter.doFilter(TenantMappingFilter.java:84)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.forwarding.ForwardingFailedFilter.doFilter(ForwardingFailedFilter.java:41)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.external.ExternalSessionFilter.doFilter(ExternalSessionFilter.java:59)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.apex.support.auth.ApexSessionQueryRewriteFilter.doFilter(ApexSessionQueryRewriteFilter.java:58)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.cors.CORSResponseFilter.doFilter(CORSResponseFilter.java:90)
+	at oracle.dbtools.http.filters.HttpResponseFilter.doFilter(HttpResponseFilter.java:45)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.filters.AbsoluteLocationFilter.doFilter(AbsoluteLocationFilter.java:65)
+	at oracle.dbtools.http.filters.HttpResponseFilter.doFilter(HttpResponseFilter.java:45)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.external.ExternalAccessValidationFilter.doFilter(ExternalAccessValidationFilter.java:59)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.errors.ErrorPageFilter.doFilter(ErrorPageFilter.java:87)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.secure.ForceHttpsFilter.doFilter(ForceHttpsFilter.java:74)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.ForceAuthFilter.doFilter(ForceAuthFilter.java:44)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.filters.Filters.filter(Filters.java:67)
+	at oracle.dbtools.http.entrypoint.EntryPoint.service(EntryPoint.java:70)
+	at oracle.dbtools.http.entrypoint.EntryPointServlet.service(EntryPointServlet.java:130)
+	at oracle.dbtools.entrypoint.WebApplicationRequestEntryPoint.service(WebApplicationRequestEntryPoint.java:50)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:529)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1571)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1383)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1544)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1305)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:173)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$0(HttpChannel.java:505)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:762)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:497)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:282)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.lambda$new$0(AdaptiveExecutionStrategy.java:139)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:933)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1077)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1
+ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:163)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1010)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1271)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1149)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1661)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1470)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3761)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3936)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1102)
+	at oracle.ucp.jdbc.proxy.oracle$1ucp$1jdbc$1proxy$1oracle$1StatementProxy$2oracle$1jdbc$1internal$1OraclePreparedStatement$$$Proxy.executeQuery(Unknown Source)
+	at oracle.dbtools.rest.resource.privileges.jdbc.JDBCPrivilegeMappings.mappings(JDBCPrivilegeMappings.java:171)
+	... 107 more
+Caused by: Error : 604, Position : 0, Sql = select
+p.name,
+p.label,
+p.description,
+pm.pattern,
+cursor(select r.name from ords_metadata.user_ords_privilege_roles pr,
+                          ords_metadata.user_ords_roles r
+                     where pr.privilege_id = p.id
+                           and pr.role_id = r.id) roles
+from ords_metadata.user_ords_privileges p,
+     ords_metadata.user_ords_privilege_mappings pm
+where instr(:1 ,trim(trailing '*' from pm.pattern)) = 1 and pm.privilege_id = p.id
+order by pm.pattern desc
+, OriginalSql = select
+p.name,
+p.label,
+p.description,
+pm.pattern,
+cursor(select r.name from ords_metadata.user_ords_privilege_roles pr,
+                          ords_metadata.user_ords_roles r
+                     where pr.privilege_id = p.id
+                           and pr.role_id = r.id) roles
+from ords_metadata.user_ords_privileges p,
+     ords_metadata.user_ords_privilege_mappings pm
+where instr(?,trim(trailing '*' from pm.pattern)) = 1 and pm.privilege_id = p.id
+order by pm.pattern desc
+, Error Msg = ORA-00604: error occurred at recursive SQL level 1
+ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 123 more
+
+2023-09-18T08:32:32.488Z TIMING      <IKptfI6iKYL8BRbLsGVP2A> [TE] GET /ords/cvgt/soda/latest/metadata-catalog/?limit=1000&offset=0&q=%7B%7D start: 2023-09-18T08:32:32.463387Z duration: 25ms
+2023-09-18T08:33:08.530Z FINE        Using SNI host isblccoraci0027.scisb.isban.corp for connection 107.4.170.51:52004
+2023-09-18T08:33:08.530Z FINE        Connection rate 1 at 1695025988530 530
+2023-09-18T08:33:08.530Z FINE        New connection: rate is 1 with total connections 6
+2023-09-18T08:33:08.531Z FINE        REQUEST> 
+QUERY
+  request ID = 507540
+  response to = 0
+  size = 327
+  flags = 0
+  database = admin
+  collection = $cmd
+  skip = 0
+  limit = -1
+  filter = {"ismaster": 1, "helloOk": true, "client": {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.3.4"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "4.18.0-372.59.1.el8_6.x86_64"}, "platform": "Java/Red Hat, Inc./11.0.15+9-LTS"}, "loadBalanced": true}
+
+2023-09-18T08:33:08.531Z FINE        QUERY> ismaster on admin
+2023-09-18T08:33:08.531Z FINE        Request Rate 1 at 1695025988531 1695025988
+2023-09-18T08:33:08.531Z FINE        RESPONSE> 
+REPLY
+  request ID = 52
+  response to = 507540
+  size = -1
+  response flags = 0
+  cursor number = 0
+  start from = 0
+  number returned = 1
+[
+{"ismaster": true, "helloOk": true, "msg": "isdbgrid", "readOnly": false, "serviceId": {"$oid": "65080b120a51413ff2606f02"}, "maxBsonObjectSize": 16777216, "maxMessageSizeBytes": 33554432, "maxWriteBatchSize": 1000, "logicalSessionTimeoutMinutes": 30, "minWireVersion": 0, "maxWireVersion": 8, "localTime": {"$date": "2023-09-18T08:33:08.531Z"}, "ok": 1.0}
+]
+2023-09-18T08:33:08.541Z FINE        REQUEST> 
+MSG
+  request ID = 507541
+  response to = 0
+  size = 116
+  flags = 0
+  section()
+[
+{"saslStart": 1, "mechanism": "PLAIN", "payload": {"$binary": {"base64": "Q1ZHVABDVkdUAFhfY3ZndF8yMzA1", "subType": "00"}}, "$db": "$external"}
+]
+
+2023-09-18T08:33:08.541Z FINE        Message command = saslStart
+2023-09-18T08:33:08.541Z FINE        Request Rate 2 at 1695025988541 1695025988
+2023-09-18T08:33:08.541Z FINE        Authenticating for CVGT
+2023-09-18T08:33:09.358Z FINE        Getting connection for CVGT
+2023-09-18T08:33:09.360Z FINE        Got connection oracle.ucp.jdbc.proxy.oracle$1ucp$1jdbc$1proxy$1oracle$1ConnectionProxy$2oracle$1jdbc$1internal$1OracleConnection$$$Proxy@1455154c
+2023-09-18T08:33:09.364Z FINE        RESPONSE> 
+MSG
+  request ID = 53
+  response to = 507541
+  size = 79
+  flags = 0
+  section()
+[
+{"conversationId": 1, "payload": {"$binary": {"base64": "", "subType": "00"}}, "done": true, "ok": 1.0}
+]
+
+2023-09-18T08:33:09.374Z FINE        REQUEST> 
+MSG
+  request ID = 507542
+  response to = 0
+  size = 59
+  flags = 0
+  section()
+[
+{"getlasterror": 1, "$db": "admin"}
+]
+
+2023-09-18T08:33:09.374Z FINE        Message command = getlasterror
+2023-09-18T08:33:09.374Z FINE        Request Rate 1 at 1695025989374 1695025989
+2023-09-18T08:33:09.374Z FINE        RESPONSE> 
+MSG
+  request ID = 54
+  response to = 507542
+  size = 50
+  flags = 0
+  section()
+[
+{"n": 0, "err": null, "ok": 1.0}
+]
+
+2023-09-18T08:33:09.409Z FINE        Using SNI host isblccoraci0027.scisb.isban.corp for connection 107.4.170.51:52020
+2023-09-18T08:33:09.409Z FINE        Connection rate 1 at 1695025989409 409
+2023-09-18T08:33:09.409Z FINE        New connection: rate is 1 with total connections 7
+2023-09-18T08:33:09.409Z FINE        REQUEST> 
+QUERY
+  request ID = 507543
+  response to = 0
+  size = 327
+  flags = 0
+  database = admin
+  collection = $cmd
+  skip = 0
+  limit = -1
+  filter = {"ismaster": 1, "helloOk": true, "client": {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.3.4"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "4.18.0-372.59.1.el8_6.x86_64"}, "platform": "Java/Red Hat, Inc./11.0.15+9-LTS"}, "loadBalanced": true}
+
+2023-09-18T08:33:09.409Z FINE        QUERY> ismaster on admin
+2023-09-18T08:33:09.409Z FINE        Request Rate 2 at 1695025989409 1695025989
+2023-09-18T08:33:09.410Z FINE        RESPONSE> 
+REPLY
+  request ID = 62
+  response to = 507543
+  size = -1
+  response flags = 0
+  cursor number = 0
+  start from = 0
+  number returned = 1
+[
+{"ismaster": true, "helloOk": true, "msg": "isdbgrid", "readOnly": false, "serviceId": {"$oid": "65080b120a51413ff2606f02"}, "maxBsonObjectSize": 16777216, "maxMessageSizeBytes": 33554432, "maxWriteBatchSize": 1000, "logicalSessionTimeoutMinutes": 30, "minWireVersion": 0, "maxWireVersion": 8, "localTime": {"$date": "2023-09-18T08:33:09.409Z"}, "ok": 1.0}
+]
+2023-09-18T08:33:09.419Z FINE        REQUEST> 
+MSG
+  request ID = 507544
+  response to = 0
+  size = 116
+  flags = 0
+  section()
+[
+{"saslStart": 1, "mechanism": "PLAIN", "payload": {"$binary": {"base64": "Q1ZHVABDVkdUAFhfY3ZndF8yMzA1", "subType": "00"}}, "$db": "$external"}
+]
+
+2023-09-18T08:33:09.419Z FINE        Message command = saslStart
+2023-09-18T08:33:09.419Z FINE        Request Rate 3 at 1695025989419 1695025989
+2023-09-18T08:33:09.419Z FINE        Authenticating for CVGT
+2023-09-18T08:33:09.714Z FINE        Getting connection for CVGT
+2023-09-18T08:33:09.716Z FINE        Got connection oracle.ucp.jdbc.proxy.oracle$1ucp$1jdbc$1proxy$1oracle$1ConnectionProxy$2oracle$1jdbc$1internal$1OracleConnection$$$Proxy@1455154c
+2023-09-18T08:33:09.720Z FINE        RESPONSE> 
+MSG
+  request ID = 63
+  response to = 507544
+  size = 79
+  flags = 0
+  section()
+[
+{"conversationId": 1, "payload": {"$binary": {"base64": "", "subType": "00"}}, "done": true, "ok": 1.0}
+]
+
+2023-09-18T08:33:09.729Z FINE        REQUEST> 
+MSG
+  request ID = 507545
+  response to = 0
+  size = 59
+  flags = 0
+  section()
+[
+{"getlasterror": 1, "$db": "admin"}
+]
+
+2023-09-18T08:33:09.729Z FINE        Message command = getlasterror
+2023-09-18T08:33:09.729Z FINE        Request Rate 4 at 1695025989729 1695025989
+2023-09-18T08:33:09.730Z FINE        RESPONSE> 
+MSG
+  request ID = 64
+  response to = 507545
+  size = 50
+  flags = 0
+  section()
+[
+{"n": 0, "err": null, "ok": 1.0}
+]
+
+2023-09-18T08:33:09.775Z FINE        Using SNI host isblccoraci0027.scisb.isban.corp for connection 107.4.170.51:52036
+2023-09-18T08:33:09.776Z FINE        Connection rate 2 at 1695025989776 776
+2023-09-18T08:33:09.776Z FINE        New connection: rate is 2 with total connections 8
+2023-09-18T08:33:09.776Z FINE        REQUEST> 
+QUERY
+  request ID = 507546
+  response to = 0
+  size = 327
+  flags = 0
+  database = admin
+  collection = $cmd
+  skip = 0
+  limit = -1
+  filter = {"ismaster": 1, "helloOk": true, "client": {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.3.4"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "4.18.0-372.59.1.el8_6.x86_64"}, "platform": "Java/Red Hat, Inc./11.0.15+9-LTS"}, "loadBalanced": true}
+
+2023-09-18T08:33:09.776Z FINE        QUERY> ismaster on admin
+2023-09-18T08:33:09.776Z FINE        Request Rate 5 at 1695025989776 1695025989
+2023-09-18T08:33:09.777Z FINE        RESPONSE> 
+REPLY
+  request ID = 72
+  response to = 507546
+  size = -1
+  response flags = 0
+  cursor number = 0
+  start from = 0
+  number returned = 1
+[
+{"ismaster": true, "helloOk": true, "msg": "isdbgrid", "readOnly": false, "serviceId": {"$oid": "65080b120a51413ff2606f02"}, "maxBsonObjectSize": 16777216, "maxMessageSizeBytes": 33554432, "maxWriteBatchSize": 1000, "logicalSessionTimeoutMinutes": 30, "minWireVersion": 0, "maxWireVersion": 8, "localTime": {"$date": "2023-09-18T08:33:09.776Z"}, "ok": 1.0}
+]
+2023-09-18T08:33:09.787Z FINE        REQUEST> 
+MSG
+  request ID = 507547
+  response to = 0
+  size = 116
+  flags = 0
+  section()
+[
+{"saslStart": 1, "mechanism": "PLAIN", "payload": {"$binary": {"base64": "Q1ZHVABDVkdUAFhfY3ZndF8yMzA1", "subType": "00"}}, "$db": "$external"}
+]
+
+2023-09-18T08:33:09.787Z FINE        Message command = saslStart
+2023-09-18T08:33:09.787Z FINE        Request Rate 6 at 1695025989787 1695025989
+2023-09-18T08:33:09.787Z FINE        Authenticating for CVGT
+2023-09-18T08:33:10.338Z FINE        Getting connection for CVGT
+2023-09-18T08:33:10.339Z FINE        Got connection oracle.ucp.jdbc.proxy.oracle$1ucp$1jdbc$1proxy$1oracle$1ConnectionProxy$2oracle$1jdbc$1internal$1OracleConnection$$$Proxy@1455154c
+2023-09-18T08:33:10.343Z FINE        RESPONSE> 
+MSG
+  request ID = 73
+  response to = 507547
+  size = 79
+  flags = 0
+  section()
+[
+{"conversationId": 1, "payload": {"$binary": {"base64": "", "subType": "00"}}, "done": true, "ok": 1.0}
+]
+
+2023-09-18T08:33:10.354Z FINE        REQUEST> 
+MSG
+  request ID = 507548
+  response to = 0
+  size = 59
+  flags = 0
+  section()
+[
+{"getlasterror": 1, "$db": "admin"}
+]
+
+2023-09-18T08:33:10.354Z FINE        Message command = getlasterror
+2023-09-18T08:33:10.354Z FINE        Request Rate 1 at 1695025990354 1695025990
+2023-09-18T08:33:10.354Z FINE        RESPONSE> 
+MSG
+  request ID = 74
+  response to = 507548
+  size = 50
+  flags = 0
+  section()
+[
+{"n": 0, "err": null, "ok": 1.0}
+]
+
+2023-09-18T08:33:10.388Z FINE        Using SNI host isblccoraci0027.scisb.isban.corp for connection 107.4.170.51:52050
+2023-09-18T08:33:10.388Z FINE        Connection rate 1 at 1695025990388 388
+2023-09-18T08:33:10.388Z FINE        New connection: rate is 1 with total connections 9
+2023-09-18T08:33:10.388Z FINE        REQUEST> 
+QUERY
+  request ID = 507549
+  response to = 0
+  size = 327
+  flags = 0
+  database = admin
+  collection = $cmd
+  skip = 0
+  limit = -1
+  filter = {"ismaster": 1, "helloOk": true, "client": {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.3.4"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "4.18.0-372.59.1.el8_6.x86_64"}, "platform": "Java/Red Hat, Inc./11.0.15+9-LTS"}, "loadBalanced": true}
+
+2023-09-18T08:33:10.389Z FINE        QUERY> ismaster on admin
+2023-09-18T08:33:10.389Z FINE        Request Rate 2 at 1695025990389 1695025990
+2023-09-18T08:33:10.389Z FINE        RESPONSE> 
+REPLY
+  request ID = 82
+  response to = 507549
+  size = -1
+  response flags = 0
+  cursor number = 0
+  start from = 0
+  number returned = 1
+[
+{"ismaster": true, "helloOk": true, "msg": "isdbgrid", "readOnly": false, "serviceId": {"$oid": "65080b120a51413ff2606f02"}, "maxBsonObjectSize": 16777216, "maxMessageSizeBytes": 33554432, "maxWriteBatchSize": 1000, "logicalSessionTimeoutMinutes": 30, "minWireVersion": 0, "maxWireVersion": 8, "localTime": {"$date": "2023-09-18T08:33:10.388Z"}, "ok": 1.0}
+]
+2023-09-18T08:33:10.398Z FINE        REQUEST> 
+MSG
+  request ID = 507550
+  response to = 0
+  size = 116
+  flags = 0
+  section()
+[
+{"saslStart": 1, "mechanism": "PLAIN", "payload": {"$binary": {"base64": "Q1ZHVABDVkdUAFhfY3ZndF8yMzA1", "subType": "00"}}, "$db": "$external"}
+]
+
+2023-09-18T08:33:10.398Z FINE        Message command = saslStart
+2023-09-18T08:33:10.398Z FINE        Request Rate 3 at 1695025990398 1695025990
+2023-09-18T08:33:10.398Z FINE        Authenticating for CVGT
+2023-09-18T08:33:10.711Z FINE        Getting connection for CVGT
+2023-09-18T08:33:10.714Z FINE        Got connection oracle.ucp.jdbc.proxy.oracle$1ucp$1jdbc$1proxy$1oracle$1ConnectionProxy$2oracle$1jdbc$1internal$1OracleConnection$$$Proxy@1455154c
+2023-09-18T08:33:10.721Z FINE        RESPONSE> 
+MSG
+  request ID = 83
+  response to = 507550
+  size = 79
+  flags = 0
+  section()
+[
+{"conversationId": 1, "payload": {"$binary": {"base64": "", "subType": "00"}}, "done": true, "ok": 1.0}
+]
+
+2023-09-18T08:33:10.730Z FINE        REQUEST> 
+MSG
+  request ID = 507551
+  response to = 0
+  size = 59
+  flags = 0
+  section()
+[
+{"getlasterror": 1, "$db": "admin"}
+]
+
+2023-09-18T08:33:10.730Z FINE        Message command = getlasterror
+2023-09-18T08:33:10.730Z FINE        Request Rate 4 at 1695025990730 1695025990
+2023-09-18T08:33:10.730Z FINE        RESPONSE> 
+MSG
+  request ID = 84
+  response to = 507551
+  size = 50
+  flags = 0
+  section()
+[
+{"n": 0, "err": null, "ok": 1.0}
+]
+
+2023-09-18T08:33:10.764Z FINE        Using SNI host isblccoraci0027.scisb.isban.corp for connection 107.4.170.51:52058
+2023-09-18T08:33:10.764Z FINE        Connection rate 2 at 1695025990764 764
+2023-09-18T08:33:10.764Z FINE        New connection: rate is 2 with total connections 10
+2023-09-18T08:33:10.764Z FINE        REQUEST> 
+QUERY
+  request ID = 507552
+  response to = 0
+  size = 327
+  flags = 0
+  database = admin
+  collection = $cmd
+  skip = 0
+  limit = -1
+  filter = {"ismaster": 1, "helloOk": true, "client": {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.3.4"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "4.18.0-372.59.1.el8_6.x86_64"}, "platform": "Java/Red Hat, Inc./11.0.15+9-LTS"}, "loadBalanced": true}
+
+2023-09-18T08:33:10.765Z FINE        QUERY> ismaster on admin
+2023-09-18T08:33:10.765Z FINE        Request Rate 5 at 1695025990765 1695025990
+2023-09-18T08:33:10.765Z FINE        RESPONSE> 
+REPLY
+  request ID = 92
+  response to = 507552
+  size = -1
+  response flags = 0
+  cursor number = 0
+  start from = 0
+  number returned = 1
+[
+{"ismaster": true, "helloOk": true, "msg": "isdbgrid", "readOnly": false, "serviceId": {"$oid": "65080b120a51413ff2606f02"}, "maxBsonObjectSize": 16777216, "maxMessageSizeBytes": 33554432, "maxWriteBatchSize": 1000, "logicalSessionTimeoutMinutes": 30, "minWireVersion": 0, "maxWireVersion": 8, "localTime": {"$date": "2023-09-18T08:33:10.764Z"}, "ok": 1.0}
+]
+2023-09-18T08:33:10.777Z FINE        REQUEST> 
+MSG
+  request ID = 507553
+  response to = 0
+  size = 116
+  flags = 0
+  section()
+[
+{"saslStart": 1, "mechanism": "PLAIN", "payload": {"$binary": {"base64": "Q1ZHVABDVkdUAFhfY3ZndF8yMzA1", "subType": "00"}}, "$db": "$external"}
+]
+
+2023-09-18T08:33:10.777Z FINE        Message command = saslStart
+2023-09-18T08:33:10.777Z FINE        Request Rate 6 at 1695025990777 1695025990
+2023-09-18T08:33:10.777Z FINE        Authenticating for CVGT
+2023-09-18T08:33:11.324Z FINE        Getting connection for CVGT
+2023-09-18T08:33:11.324Z FINE        Got connection oracle.ucp.jdbc.proxy.oracle$1ucp$1jdbc$1proxy$1oracle$1ConnectionProxy$2oracle$1jdbc$1internal$1OracleConnection$$$Proxy@1455154c
+2023-09-18T08:33:11.329Z FINE        RESPONSE> 
+MSG
+  request ID = 93
+  response to = 507553
+  size = 79
+  flags = 0
+  section()
+[
+{"conversationId": 1, "payload": {"$binary": {"base64": "", "subType": "00"}}, "done": true, "ok": 1.0}
+]
+
+2023-09-18T08:33:11.337Z FINE        REQUEST> 
+MSG
+  request ID = 507554
+  response to = 0
+  size = 59
+  flags = 0
+  section()
+[
+{"getlasterror": 1, "$db": "admin"}
+]
+
+2023-09-18T08:33:11.338Z FINE        Message command = getlasterror
+2023-09-18T08:33:11.338Z FINE        Request Rate 1 at 1695025991338 1695025991
+2023-09-18T08:33:11.338Z FINE        RESPONSE> 
+MSG
+  request ID = 94
+  response to = 507554
+  size = 50
+  flags = 0
+  section()
+[
+{"n": 0, "err": null, "ok": 1.0}
+]
+
+2023-09-18T08:33:20.859Z TIMING      <__X3zQAXk9SoB1itMa_h5Q> [TE] url-mapping start: 2023-09-18T08:33:20.859259Z duration: 0ms
+2023-09-18T08:33:20.859Z FINE        Mapped request to: oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping@1de94a85
+2023-09-18T08:33:20.859Z FINE        Mapped request to: URLMapping [mapper=/*] -> |default|lo|
+2023-09-18T08:33:20.860Z FINE        Mapped request to: URLMapping [mapper=/cvgt/*]
+2023-09-18T08:33:20.863Z FINE        Injecting setting: conf.use.wallet = true
+2023-09-18T08:33:20.863Z FINE        Injecting setting: resource.templates.enabled = false
+2023-09-18T08:33:20.863Z FINE        Injecting setting: json.sdo.geometry.output.geojson = false
+2023-09-18T08:33:20.863Z FINE        Injecting setting: cache.metadata.enabled = false
+2023-09-18T08:33:20.863Z FINE        Injecting setting: cache.metadata.timeout = 11m
+2023-09-18T08:33:20.863Z FINE        Injecting setting: jdbc.cleanup.mode = RECYCLE
+2023-09-18T08:33:20.863Z FINE        Injecting setting: jdbc.MaxConnectionReuseCount = 5000
+2023-09-18T08:33:20.863Z FINE        Injecting setting: db.connectionType = basic
+2023-09-18T08:33:20.863Z FINE        Injecting setting: db.invalidPoolTimeout = 15m
+2023-09-18T08:33:20.863Z FINE        Injecting setting: debug.trackResources = false
+2023-09-18T08:33:20.863Z FINE        Injecting setting: db.hostname = c3cssgtpre01-scan.sgtech.pre.corp
+2023-09-18T08:33:20.863Z FINE        Injecting setting: jdbc.auth.enabled = false
+2023-09-18T08:33:20.863Z FINE        Injecting setting: jdbc.DriverType = thin
+2023-09-18T08:33:20.863Z FINE        Injecting setting: jdbc.InactivityTimeout = 1800
+2023-09-18T08:33:20.863Z FINE        Injecting setting: jdbc.InitialLimit = 100
+2023-09-18T08:33:20.863Z FINE        Injecting setting: jdbc.MaxLimit = 100
+2023-09-18T08:33:20.863Z FINE        Injecting setting: jdbc.MaxStatementsLimit = 10
+2023-09-18T08:33:20.863Z FINE        Injecting setting: jdbc.MinLimit = 2
+2023-09-18T08:33:20.863Z FINE        Injecting setting: jdbc.statementTimeout = 900s
+2023-09-18T08:33:20.863Z FINE        Injecting setting: jdbc.ConnectionWaitTimeout = 3
+2023-09-18T08:33:20.863Z FINE        Injecting setting: jdbc.ucp.enableJMX = true
+2023-09-18T08:33:20.863Z FINE        Injecting setting: db.password = ********
+2023-09-18T08:33:20.863Z FINE        Injecting setting: plsql.gateway.mode = DISABLED
+2023-09-18T08:33:20.863Z FINE        Injecting setting: db.poolDestroyTimeout = 5m
+2023-09-18T08:33:20.863Z FINE        Injecting setting: db.port = 1521
+2023-09-18T08:33:20.863Z FINE        Injecting setting: restEnabledSql.active = true
+2023-09-18T08:33:20.863Z FINE        Injecting setting: db.servicename = otiscvgt_cvgt_dev.sgtech.pre.corp
+2023-09-18T08:33:20.864Z FINE        Injecting setting: db.username = ORDS_PUBLIC_USER
+2023-09-18T08:33:20.864Z FINE        Injecting setting: db.wallet.cache = /tmp/ords-wallet-cache
+2023-09-18T08:33:20.864Z FINE        Injecting setting: db.batchload.errorsMax = 100
+2023-09-18T08:33:20.864Z FINE        Injecting setting: db.credentialsSource = POOL
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.credentials.lock.time = 10m
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.credentials.attempts = -1
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.jwt.allowed.skew = 0s
+2023-09-18T08:33:20.864Z FINE        Injecting setting: error.responseFormat = AUTO
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.forceHTTPS = false
+2023-09-18T08:33:20.864Z FINE        Injecting setting: debug.printDebugToScreen = true
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.verifySSL = true
+2023-09-18T08:33:20.864Z FINE        Injecting setting: cache.expireAfterAccessOWAJDBCURL = 30m
+2023-09-18T08:33:20.864Z FINE        Injecting setting: cache.maxOWAJDBCURL = 10000
+2023-09-18T08:33:20.864Z FINE        Injecting setting: cache.expireAfterWriteProcedure = -1s
+2023-09-18T08:33:20.864Z FINE        Injecting setting: cache.expireAfterAccessProcedure = 120m
+2023-09-18T08:33:20.864Z FINE        Injecting setting: cache.maxOWAProcedures = 1000
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.maxEntries = 2000
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.validationCacheExpiration = -1s
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.validationCacheExpireAfterAccess  = 120m
+2023-09-18T08:33:20.864Z FINE        Injecting setting: misc.defaultPage = apex
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.requestValidationFunction = ords_util.authorize_plsql_gateway
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.validationFunctionType = plsql
+2023-09-18T08:33:20.864Z FINE        Injecting setting: owa.trace.sql = false
+2023-09-18T08:33:20.864Z FINE        Injecting setting: misc.pagination.maxRows = 10000
+2023-09-18T08:33:20.864Z FINE        Injecting setting: apex.security.administrator.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:33:20.864Z FINE        Injecting setting: apex.security.developer.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:33:20.864Z FINE        Injecting setting: apex.security.user.roles = 
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.generate.token.enabled = false
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.generate.token.lifetime = 10m
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.token.exchange.redirectUrl = /ords/admin/_sdw/
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.token.exchange.jwt.allowed.age = 10s
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.jwt.authenticators = DATABASE
+2023-09-18T08:33:20.864Z FINE        Injecting setting: security.oauth.tokenLifetime = 1h
+2023-09-18T08:33:20.864Z FINE        Injecting setting: database.api.enabled = true
+2023-09-18T08:33:20.864Z FINE        Injecting setting: database.api.management.services.disabled = false
+2023-09-18T08:33:20.864Z FINE        Injecting setting: feature.openservicebroker.exclude = false
+2023-09-18T08:33:20.864Z FINE        Injecting setting: mongo.access.log = /var/log/ords/mongologs
+2023-09-18T08:33:20.864Z FINE        Injecting setting: mongo.enabled = true
+2023-09-18T08:33:20.864Z FINE        Injecting setting: mongo.host = 0.0.0.0
+2023-09-18T08:33:20.864Z FINE        Injecting setting: mongo.idle.timeout = 30m
+2023-09-18T08:33:20.864Z FINE        Injecting setting: mongo.op.timeout = 10m
+2023-09-18T08:33:20.864Z FINE        Injecting setting: mongo.port = 27017
+2023-09-18T08:33:20.864Z FINE        Injecting setting: standalone.access.log = /var/log/ords
+2023-09-18T08:33:20.864Z FINE        Injecting setting: standalone.context.path = /ords
+2023-09-18T08:33:20.864Z FINE        Injecting setting: standalone.doc.root = /home/oracle/ords/config/global/doc_root
+2023-09-18T08:33:20.864Z FINE        Injecting setting: standalone.http.port = 8080
+2023-09-18T08:33:20.864Z FINE        Injecting setting: standalone.binds = 0.0.0.0
+2023-09-18T08:33:20.864Z FINE        Injecting setting: standalone.https.port = 8443
+2023-09-18T08:33:20.864Z FINE        Injecting setting: standalone.https.cert = /home/oracle/ords/config/global/standalone/client.der
+2023-09-18T08:33:20.864Z FINE        Injecting setting: standalone.https.cert.key = /home/oracle/ords/config/global/standalone/client-key.der
+2023-09-18T08:33:20.864Z FINE        Injecting setting: standalone.static.context.path = /i
+2023-09-18T08:33:20.864Z FINE        Injecting setting: standalone.stop.timeout = 10s
+2023-09-18T08:33:20.864Z FINE        Injecting setting: feature.sdw = true
+2023-09-18T08:33:20.864Z FINE        Injecting setting: feature.sdw.selfServiceSchema = false
+2023-09-18T08:33:20.864Z FINE        Injecting setting: instance.api.token = ORDS_INSTANCE_AUTH_TOKEN
+2023-09-18T08:33:20.864Z FINE        Injecting setting: instance.api.header = X-ORDS-Instance-Auth-Token
+2023-09-18T08:33:20.864Z FINE        Injecting setting: feature.serviceconsole = false
+2023-09-18T08:33:20.875Z FINE        Injecting connection of type: DEFAULT
+2023-09-18T08:33:20.879Z FINE        authenticated request as: --Attributes--
+oracle.dbtools.http.servlet.UriRequest = UriRequest [uri=http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/soda/latest/metadata-catalog/?limit=1000&offset=0&q={}, contextPath=/ords/cvgt]
+oracle.dbtools.http.ecid = __X3zQAXk9SoB1itMa_h5Q
+oracle.dbtools.common.di.Services = URL Mapped Scope
+oracle.dbtools.plugin.api.di.InstanceLocator = URL Mapped Scope
+--Attributes--
+GET [/ords/cvgt]/soda/latest/metadata-catalog/?limit=1000&offset=0&q={} HTTP/1.1
+Host: isblccoraci0027.scisb.isban.corp
+Cookie: __ords_sid__=AT__..
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/_sdw/?nav=application&application=soda&page=Home
+Host: isblccoraci0027.scisb.isban.corp:8080
+Accept-Encoding: gzip, deflate
+Accept-Language: es-ES,es;q=0.9
+Principal: {user: CVGT, roles: [SQL Developer, SODA Developer]}
+
+
+2023-09-18T08:33:20.889Z INFO        <__X3zQAXk9SoB1itMa_h5Q> GET isblccoraci0027.scisb.isban.corp /ords/cvgt/soda/latest/metadata-catalog/?limit=1000&offset=0&q=%7B%7D 403 The user can not access the ORDS Metadata database objects. Please consult the section in the ORDS documentation titled 'Troubleshooting ORDS Metadata database objects access'.
+ORDSMetadataNotFoundException [statusCode=403, logLevel=INFO, reasons=[The user can not access the ORDS Metadata database objects. Please consult the section in the ORDS documentation titled 'Troubleshooting ORDS Metadata database objects access'.]]
+	at oracle.dbtools.rest.resource.privileges.jdbc.JDBCPrivilegeMappings.mappings(JDBCPrivilegeMappings.java:218)
+	at oracle.dbtools.rest.resource.privileges.jdbc.JDBCPrivilegeMappings.authorizationConstraint(JDBCPrivilegeMappings.java:84)
+	at oracle.dbtools.rest.resource.privileges.cache.PrivilegeCache.authorizationConstraint(PrivilegeCache.java:43)
+	at oracle.dbtools.rest.resource.privileges.cache.CachedPrivilegeMappings.authorizationConstraint(CachedPrivilegeMappings.java:82)
+	at oracle.dbtools.http.auth.RequestAuthorizationProvider.authorizationConstraint(RequestAuthorizationProvider.java:85)
+	at oracle.dbtools.http.auth.AuthorizationConstraintsDispatchHook.getConstraint(AuthorizationConstraintsDispatchHook.java:64)
+	at oracle.dbtools.http.auth.AuthorizationConstraintsDispatchHook.before(AuthorizationConstraintsDispatchHook.java:42)
+	at oracle.dbtools.http.dispatch.hooks.DispatchHookChain.before(DispatchHookChain.java:34)
+	at oracle.dbtools.http.dispatch.hooks.DispatchHooks.before(DispatchHooks.java:49)
+	at oracle.dbtools.http.entrypoint.Dispatcher.dispatch(Dispatcher.java:122)
+	at oracle.dbtools.http.entrypoint.EntryPoint$FilteredServlet.service(EntryPoint.java:170)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:73)
+	at oracle.dbtools.http.forwarding.QueryFilteringRewrite.doFilter(QueryFilteringRewrite.java:90)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.forwarding.ForwardingFilter.doFilter(ForwardingFilter.java:69)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.cors.CORSPreflightFilter.doFilter(CORSPreflightFilter.java:68)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.cookies.auth.CookieSessionCSRFFilter.doFilter(CookieSessionCSRFFilter.java:69)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.AuthenticationFilter.authenticate(AuthenticationFilter.java:91)
+	at oracle.dbtools.http.auth.AuthenticationFilter.doFilter(AuthenticationFilter.java:64)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.url.mapping.RequestMapperImpl.doFilter(RequestMapperImpl.java:158)
+	at oracle.dbtools.url.mapping.URLMappingBase.doFilter(URLMappingBase.java:89)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMapping.dispatchSelf(DatabaseTenantMapping.java:212)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.doFilter(DatabaseTenantMappingBase.java:51)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingDispatcher.dispatch(TenantMappingDispatcher.java:56)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.dispatchChild(DatabaseTenantMappingBase.java:152)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.doFilter(DatabaseTenantMappingBase.java:49)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingDispatcher.dispatch(TenantMappingDispatcher.java:56)
+	at oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping.dispatchSelf(DefaultLocalTenantMapping.java:132)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.doFilter(DatabaseTenantMappingBase.java:51)
+	at oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping.doFilter(DefaultLocalTenantMapping.java:100)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingDispatcher.dispatch(TenantMappingDispatcher.java:56)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingFilter.doFilter(TenantMappingFilter.java:84)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.forwarding.ForwardingFailedFilter.doFilter(ForwardingFailedFilter.java:41)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.external.ExternalSessionFilter.doFilter(ExternalSessionFilter.java:59)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.apex.support.auth.ApexSessionQueryRewriteFilter.doFilter(ApexSessionQueryRewriteFilter.java:58)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.cors.CORSResponseFilter.doFilter(CORSResponseFilter.java:90)
+	at oracle.dbtools.http.filters.HttpResponseFilter.doFilter(HttpResponseFilter.java:45)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.filters.AbsoluteLocationFilter.doFilter(AbsoluteLocationFilter.java:65)
+	at oracle.dbtools.http.filters.HttpResponseFilter.doFilter(HttpResponseFilter.java:45)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.external.ExternalAccessValidationFilter.doFilter(ExternalAccessValidationFilter.java:59)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.errors.ErrorPageFilter.doFilter(ErrorPageFilter.java:87)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.secure.ForceHttpsFilter.doFilter(ForceHttpsFilter.java:74)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.ForceAuthFilter.doFilter(ForceAuthFilter.java:44)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.filters.Filters.filter(Filters.java:67)
+	at oracle.dbtools.http.entrypoint.EntryPoint.service(EntryPoint.java:70)
+	at oracle.dbtools.http.entrypoint.EntryPointServlet.service(EntryPointServlet.java:130)
+	at oracle.dbtools.entrypoint.WebApplicationRequestEntryPoint.service(WebApplicationRequestEntryPoint.java:50)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:529)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1571)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1383)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1544)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1305)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:173)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$0(HttpChannel.java:505)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:762)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:497)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:282)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce(AdaptiveExecutionStrategy.java:199)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:933)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1077)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1
+ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:163)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1010)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1271)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1149)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1661)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1470)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3761)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3936)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1102)
+	at oracle.ucp.jdbc.proxy.oracle$1ucp$1jdbc$1proxy$1oracle$1StatementProxy$2oracle$1jdbc$1internal$1OraclePreparedStatement$$$Proxy.executeQuery(Unknown Source)
+	at oracle.dbtools.rest.resource.privileges.jdbc.JDBCPrivilegeMappings.mappings(JDBCPrivilegeMappings.java:171)
+	... 106 more
+Caused by: Error : 604, Position : 0, Sql = select
+p.name,
+p.label,
+p.description,
+pm.pattern,
+cursor(select r.name from ords_metadata.user_ords_privilege_roles pr,
+                          ords_metadata.user_ords_roles r
+                     where pr.privilege_id = p.id
+                           and pr.role_id = r.id) roles
+from ords_metadata.user_ords_privileges p,
+     ords_metadata.user_ords_privilege_mappings pm
+where instr(:1 ,trim(trailing '*' from pm.pattern)) = 1 and pm.privilege_id = p.id
+order by pm.pattern desc
+, OriginalSql = select
+p.name,
+p.label,
+p.description,
+pm.pattern,
+cursor(select r.name from ords_metadata.user_ords_privilege_roles pr,
+                          ords_metadata.user_ords_roles r
+                     where pr.privilege_id = p.id
+                           and pr.role_id = r.id) roles
+from ords_metadata.user_ords_privileges p,
+     ords_metadata.user_ords_privilege_mappings pm
+where instr(?,trim(trailing '*' from pm.pattern)) = 1 and pm.privilege_id = p.id
+order by pm.pattern desc
+, Error Msg = ORA-00604: error occurred at recursive SQL level 1
+ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 122 more
+
+2023-09-18T08:33:20.891Z TIMING      <__X3zQAXk9SoB1itMa_h5Q> [TE] GET /ords/cvgt/soda/latest/metadata-catalog/?limit=1000&offset=0&q=%7B%7D start: 2023-09-18T08:33:20.857867Z duration: 34ms
+2023-09-18T08:33:20.900Z TIMING      <X9CYcl174_ZSD9tL1jXRkQ> [TE] url-mapping start: 2023-09-18T08:33:20.899993Z duration: 0ms
+2023-09-18T08:33:20.900Z FINE        Mapped request to: oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping@1de94a85
+2023-09-18T08:33:20.900Z FINE        Mapped request to: URLMapping [mapper=/*] -> |default|lo|
+2023-09-18T08:33:20.900Z FINE        Mapped request to: URLMapping [mapper=/cvgt/*]
+2023-09-18T08:33:20.903Z FINE        Injecting setting: conf.use.wallet = true
+2023-09-18T08:33:20.903Z FINE        Injecting setting: resource.templates.enabled = false
+2023-09-18T08:33:20.903Z FINE        Injecting setting: json.sdo.geometry.output.geojson = false
+2023-09-18T08:33:20.903Z FINE        Injecting setting: cache.metadata.enabled = false
+2023-09-18T08:33:20.903Z FINE        Injecting setting: cache.metadata.timeout = 11m
+2023-09-18T08:33:20.903Z FINE        Injecting setting: jdbc.cleanup.mode = RECYCLE
+2023-09-18T08:33:20.903Z FINE        Injecting setting: jdbc.MaxConnectionReuseCount = 5000
+2023-09-18T08:33:20.903Z FINE        Injecting setting: db.connectionType = basic
+2023-09-18T08:33:20.903Z FINE        Injecting setting: db.invalidPoolTimeout = 15m
+2023-09-18T08:33:20.903Z FINE        Injecting setting: debug.trackResources = false
+2023-09-18T08:33:20.903Z FINE        Injecting setting: db.hostname = c3cssgtpre01-scan.sgtech.pre.corp
+2023-09-18T08:33:20.903Z FINE        Injecting setting: jdbc.auth.enabled = false
+2023-09-18T08:33:20.903Z FINE        Injecting setting: jdbc.DriverType = thin
+2023-09-18T08:33:20.903Z FINE        Injecting setting: jdbc.InactivityTimeout = 1800
+2023-09-18T08:33:20.903Z FINE        Injecting setting: jdbc.InitialLimit = 100
+2023-09-18T08:33:20.903Z FINE        Injecting setting: jdbc.MaxLimit = 100
+2023-09-18T08:33:20.903Z FINE        Injecting setting: jdbc.MaxStatementsLimit = 10
+2023-09-18T08:33:20.903Z FINE        Injecting setting: jdbc.MinLimit = 2
+2023-09-18T08:33:20.903Z FINE        Injecting setting: jdbc.statementTimeout = 900s
+2023-09-18T08:33:20.903Z FINE        Injecting setting: jdbc.ConnectionWaitTimeout = 3
+2023-09-18T08:33:20.903Z FINE        Injecting setting: jdbc.ucp.enableJMX = true
+2023-09-18T08:33:20.903Z FINE        Injecting setting: db.password = ********
+2023-09-18T08:33:20.903Z FINE        Injecting setting: plsql.gateway.mode = DISABLED
+2023-09-18T08:33:20.903Z FINE        Injecting setting: db.poolDestroyTimeout = 5m
+2023-09-18T08:33:20.903Z FINE        Injecting setting: db.port = 1521
+2023-09-18T08:33:20.903Z FINE        Injecting setting: restEnabledSql.active = true
+2023-09-18T08:33:20.903Z FINE        Injecting setting: db.servicename = otiscvgt_cvgt_dev.sgtech.pre.corp
+2023-09-18T08:33:20.903Z FINE        Injecting setting: db.username = ORDS_PUBLIC_USER
+2023-09-18T08:33:20.903Z FINE        Injecting setting: db.wallet.cache = /tmp/ords-wallet-cache
+2023-09-18T08:33:20.903Z FINE        Injecting setting: db.batchload.errorsMax = 100
+2023-09-18T08:33:20.903Z FINE        Injecting setting: db.credentialsSource = POOL
+2023-09-18T08:33:20.903Z FINE        Injecting setting: security.credentials.lock.time = 10m
+2023-09-18T08:33:20.903Z FINE        Injecting setting: security.credentials.attempts = -1
+2023-09-18T08:33:20.903Z FINE        Injecting setting: security.jwt.allowed.skew = 0s
+2023-09-18T08:33:20.903Z FINE        Injecting setting: error.responseFormat = AUTO
+2023-09-18T08:33:20.903Z FINE        Injecting setting: security.forceHTTPS = false
+2023-09-18T08:33:20.903Z FINE        Injecting setting: debug.printDebugToScreen = true
+2023-09-18T08:33:20.903Z FINE        Injecting setting: security.verifySSL = true
+2023-09-18T08:33:20.903Z FINE        Injecting setting: cache.expireAfterAccessOWAJDBCURL = 30m
+2023-09-18T08:33:20.903Z FINE        Injecting setting: cache.maxOWAJDBCURL = 10000
+2023-09-18T08:33:20.903Z FINE        Injecting setting: cache.expireAfterWriteProcedure = -1s
+2023-09-18T08:33:20.903Z FINE        Injecting setting: cache.expireAfterAccessProcedure = 120m
+2023-09-18T08:33:20.903Z FINE        Injecting setting: cache.maxOWAProcedures = 1000
+2023-09-18T08:33:20.903Z FINE        Injecting setting: security.maxEntries = 2000
+2023-09-18T08:33:20.903Z FINE        Injecting setting: security.validationCacheExpiration = -1s
+2023-09-18T08:33:20.903Z FINE        Injecting setting: security.validationCacheExpireAfterAccess  = 120m
+2023-09-18T08:33:20.903Z FINE        Injecting setting: misc.defaultPage = apex
+2023-09-18T08:33:20.903Z FINE        Injecting setting: security.requestValidationFunction = ords_util.authorize_plsql_gateway
+2023-09-18T08:33:20.904Z FINE        Injecting setting: security.validationFunctionType = plsql
+2023-09-18T08:33:20.904Z FINE        Injecting setting: owa.trace.sql = false
+2023-09-18T08:33:20.904Z FINE        Injecting setting: misc.pagination.maxRows = 10000
+2023-09-18T08:33:20.904Z FINE        Injecting setting: apex.security.administrator.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:33:20.904Z FINE        Injecting setting: apex.security.developer.roles = SQL Developer, OAuth Client Developer
+2023-09-18T08:33:20.904Z FINE        Injecting setting: apex.security.user.roles = 
+2023-09-18T08:33:20.904Z FINE        Injecting setting: security.generate.token.enabled = false
+2023-09-18T08:33:20.904Z FINE        Injecting setting: security.generate.token.lifetime = 10m
+2023-09-18T08:33:20.904Z FINE        Injecting setting: security.token.exchange.redirectUrl = /ords/admin/_sdw/
+2023-09-18T08:33:20.904Z FINE        Injecting setting: security.token.exchange.jwt.allowed.age = 10s
+2023-09-18T08:33:20.904Z FINE        Injecting setting: security.jwt.authenticators = DATABASE
+2023-09-18T08:33:20.904Z FINE        Injecting setting: security.oauth.tokenLifetime = 1h
+2023-09-18T08:33:20.904Z FINE        Injecting setting: database.api.enabled = true
+2023-09-18T08:33:20.904Z FINE        Injecting setting: database.api.management.services.disabled = false
+2023-09-18T08:33:20.904Z FINE        Injecting setting: feature.openservicebroker.exclude = false
+2023-09-18T08:33:20.904Z FINE        Injecting setting: mongo.access.log = /var/log/ords/mongologs
+2023-09-18T08:33:20.904Z FINE        Injecting setting: mongo.enabled = true
+2023-09-18T08:33:20.904Z FINE        Injecting setting: mongo.host = 0.0.0.0
+2023-09-18T08:33:20.904Z FINE        Injecting setting: mongo.idle.timeout = 30m
+2023-09-18T08:33:20.904Z FINE        Injecting setting: mongo.op.timeout = 10m
+2023-09-18T08:33:20.904Z FINE        Injecting setting: mongo.port = 27017
+2023-09-18T08:33:20.904Z FINE        Injecting setting: standalone.access.log = /var/log/ords
+2023-09-18T08:33:20.904Z FINE        Injecting setting: standalone.context.path = /ords
+2023-09-18T08:33:20.904Z FINE        Injecting setting: standalone.doc.root = /home/oracle/ords/config/global/doc_root
+2023-09-18T08:33:20.904Z FINE        Injecting setting: standalone.http.port = 8080
+2023-09-18T08:33:20.904Z FINE        Injecting setting: standalone.binds = 0.0.0.0
+2023-09-18T08:33:20.904Z FINE        Injecting setting: standalone.https.port = 8443
+2023-09-18T08:33:20.904Z FINE        Injecting setting: standalone.https.cert = /home/oracle/ords/config/global/standalone/client.der
+2023-09-18T08:33:20.904Z FINE        Injecting setting: standalone.https.cert.key = /home/oracle/ords/config/global/standalone/client-key.der
+2023-09-18T08:33:20.904Z FINE        Injecting setting: standalone.static.context.path = /i
+2023-09-18T08:33:20.904Z FINE        Injecting setting: standalone.stop.timeout = 10s
+2023-09-18T08:33:20.904Z FINE        Injecting setting: feature.sdw = true
+2023-09-18T08:33:20.904Z FINE        Injecting setting: feature.sdw.selfServiceSchema = false
+2023-09-18T08:33:20.904Z FINE        Injecting setting: instance.api.token = ORDS_INSTANCE_AUTH_TOKEN
+2023-09-18T08:33:20.904Z FINE        Injecting setting: instance.api.header = X-ORDS-Instance-Auth-Token
+2023-09-18T08:33:20.904Z FINE        Injecting setting: feature.serviceconsole = false
+2023-09-18T08:33:20.912Z FINE        Injecting connection of type: DEFAULT
+2023-09-18T08:33:20.914Z FINE        authenticated request as: --Attributes--
+oracle.dbtools.http.servlet.UriRequest = UriRequest [uri=http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/soda/latest/metadata-catalog/?limit=1000&offset=0&q={}, contextPath=/ords/cvgt]
+oracle.dbtools.http.ecid = X9CYcl174_ZSD9tL1jXRkQ
+oracle.dbtools.common.di.Services = URL Mapped Scope
+oracle.dbtools.plugin.api.di.InstanceLocator = URL Mapped Scope
+--Attributes--
+GET [/ords/cvgt]/soda/latest/metadata-catalog/?limit=1000&offset=0&q={} HTTP/1.1
+Host: isblccoraci0027.scisb.isban.corp
+Cookie: __ords_sid__=AT__..
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://isblccoraci0027.scisb.isban.corp:8080/ords/cvgt/_sdw/?nav=application&application=soda&page=Home
+Host: isblccoraci0027.scisb.isban.corp:8080
+Accept-Encoding: gzip, deflate
+Accept-Language: es-ES,es;q=0.9
+Principal: {user: CVGT, roles: [SQL Developer, SODA Developer]}
+
+
+2023-09-18T08:33:20.923Z INFO        <X9CYcl174_ZSD9tL1jXRkQ> GET isblccoraci0027.scisb.isban.corp /ords/cvgt/soda/latest/metadata-catalog/?limit=1000&offset=0&q=%7B%7D 403 The user can not access the ORDS Metadata database objects. Please consult the section in the ORDS documentation titled 'Troubleshooting ORDS Metadata database objects access'.
+ORDSMetadataNotFoundException [statusCode=403, logLevel=INFO, reasons=[The user can not access the ORDS Metadata database objects. Please consult the section in the ORDS documentation titled 'Troubleshooting ORDS Metadata database objects access'.]]
+	at oracle.dbtools.rest.resource.privileges.jdbc.JDBCPrivilegeMappings.mappings(JDBCPrivilegeMappings.java:218)
+	at oracle.dbtools.rest.resource.privileges.jdbc.JDBCPrivilegeMappings.authorizationConstraint(JDBCPrivilegeMappings.java:84)
+	at oracle.dbtools.rest.resource.privileges.cache.PrivilegeCache.authorizationConstraint(PrivilegeCache.java:43)
+	at oracle.dbtools.rest.resource.privileges.cache.CachedPrivilegeMappings.authorizationConstraint(CachedPrivilegeMappings.java:82)
+	at oracle.dbtools.http.auth.RequestAuthorizationProvider.authorizationConstraint(RequestAuthorizationProvider.java:85)
+	at oracle.dbtools.http.auth.AuthorizationConstraintsDispatchHook.getConstraint(AuthorizationConstraintsDispatchHook.java:64)
+	at oracle.dbtools.http.auth.AuthorizationConstraintsDispatchHook.before(AuthorizationConstraintsDispatchHook.java:42)
+	at oracle.dbtools.http.dispatch.hooks.DispatchHookChain.before(DispatchHookChain.java:34)
+	at oracle.dbtools.http.dispatch.hooks.DispatchHooks.before(DispatchHooks.java:49)
+	at oracle.dbtools.http.entrypoint.Dispatcher.dispatch(Dispatcher.java:122)
+	at oracle.dbtools.http.entrypoint.EntryPoint$FilteredServlet.service(EntryPoint.java:170)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:73)
+	at oracle.dbtools.http.forwarding.QueryFilteringRewrite.doFilter(QueryFilteringRewrite.java:90)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.forwarding.ForwardingFilter.doFilter(ForwardingFilter.java:69)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.cors.CORSPreflightFilter.doFilter(CORSPreflightFilter.java:68)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.cookies.auth.CookieSessionCSRFFilter.doFilter(CookieSessionCSRFFilter.java:69)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.AuthenticationFilter.authenticate(AuthenticationFilter.java:91)
+	at oracle.dbtools.http.auth.AuthenticationFilter.doFilter(AuthenticationFilter.java:64)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.url.mapping.RequestMapperImpl.doFilter(RequestMapperImpl.java:158)
+	at oracle.dbtools.url.mapping.URLMappingBase.doFilter(URLMappingBase.java:89)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMapping.dispatchSelf(DatabaseTenantMapping.java:212)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.doFilter(DatabaseTenantMappingBase.java:51)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingDispatcher.dispatch(TenantMappingDispatcher.java:56)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.dispatchChild(DatabaseTenantMappingBase.java:152)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.doFilter(DatabaseTenantMappingBase.java:49)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingDispatcher.dispatch(TenantMappingDispatcher.java:56)
+	at oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping.dispatchSelf(DefaultLocalTenantMapping.java:132)
+	at oracle.dbtools.url.mapping.db.DatabaseTenantMappingBase.doFilter(DatabaseTenantMappingBase.java:51)
+	at oracle.dbtools.jdbc.pools.local.DefaultLocalTenantMapping.doFilter(DefaultLocalTenantMapping.java:100)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingDispatcher.dispatch(TenantMappingDispatcher.java:56)
+	at oracle.dbtools.url.mapping.tenant.TenantMappingFilter.doFilter(TenantMappingFilter.java:84)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.forwarding.ForwardingFailedFilter.doFilter(ForwardingFailedFilter.java:41)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.external.ExternalSessionFilter.doFilter(ExternalSessionFilter.java:59)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.apex.support.auth.ApexSessionQueryRewriteFilter.doFilter(ApexSessionQueryRewriteFilter.java:58)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.cors.CORSResponseFilter.doFilter(CORSResponseFilter.java:90)
+	at oracle.dbtools.http.filters.HttpResponseFilter.doFilter(HttpResponseFilter.java:45)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.filters.AbsoluteLocationFilter.doFilter(AbsoluteLocationFilter.java:65)
+	at oracle.dbtools.http.filters.HttpResponseFilter.doFilter(HttpResponseFilter.java:45)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.external.ExternalAccessValidationFilter.doFilter(ExternalAccessValidationFilter.java:59)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.errors.ErrorPageFilter.doFilter(ErrorPageFilter.java:87)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.secure.ForceHttpsFilter.doFilter(ForceHttpsFilter.java:74)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.auth.ForceAuthFilter.doFilter(ForceAuthFilter.java:44)
+	at oracle.dbtools.http.filters.HttpFilter.doFilter(HttpFilter.java:47)
+	at oracle.dbtools.http.filters.FilterChainImpl.doFilter(FilterChainImpl.java:64)
+	at oracle.dbtools.http.filters.Filters.filter(Filters.java:67)
+	at oracle.dbtools.http.entrypoint.EntryPoint.service(EntryPoint.java:70)
+	at oracle.dbtools.http.entrypoint.EntryPointServlet.service(EntryPointServlet.java:130)
+	at oracle.dbtools.entrypoint.WebApplicationRequestEntryPoint.service(WebApplicationRequestEntryPoint.java:50)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:529)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1571)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1383)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1544)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1305)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:173)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$0(HttpChannel.java:505)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:762)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:497)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:282)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.lambda$new$0(AdaptiveExecutionStrategy.java:139)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:933)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1077)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1
+ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:163)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1010)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1271)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1149)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1661)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1470)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3761)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3936)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1102)
+	at oracle.ucp.jdbc.proxy.oracle$1ucp$1jdbc$1proxy$1oracle$1StatementProxy$2oracle$1jdbc$1internal$1OraclePreparedStatement$$$Proxy.executeQuery(Unknown Source)
+	at oracle.dbtools.rest.resource.privileges.jdbc.JDBCPrivilegeMappings.mappings(JDBCPrivilegeMappings.java:171)
+	... 107 more
+Caused by: Error : 604, Position : 0, Sql = select
+p.name,
+p.label,
+p.description,
+pm.pattern,
+cursor(select r.name from ords_metadata.user_ords_privilege_roles pr,
+                          ords_metadata.user_ords_roles r
+                     where pr.privilege_id = p.id
+                           and pr.role_id = r.id) roles
+from ords_metadata.user_ords_privileges p,
+     ords_metadata.user_ords_privilege_mappings pm
+where instr(:1 ,trim(trailing '*' from pm.pattern)) = 1 and pm.privilege_id = p.id
+order by pm.pattern desc
+, OriginalSql = select
+p.name,
+p.label,
+p.description,
+pm.pattern,
+cursor(select r.name from ords_metadata.user_ords_privilege_roles pr,
+                          ords_metadata.user_ords_roles r
+                     where pr.privilege_id = p.id
+                           and pr.role_id = r.id) roles
+from ords_metadata.user_ords_privileges p,
+     ords_metadata.user_ords_privilege_mappings pm
+where instr(?,trim(trailing '*' from pm.pattern)) = 1 and pm.privilege_id = p.id
+order by pm.pattern desc
+, Error Msg = ORA-00604: error occurred at recursive SQL level 1
+ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 123 more
+
+2023-09-18T08:33:20.925Z TIMING      <X9CYcl174_ZSD9tL1jXRkQ> [TE] GET /ords/cvgt/soda/latest/metadata-catalog/?limit=1000&offset=0&q=%7B%7D start: 2023-09-18T08:33:20.898451Z duration: 26ms
